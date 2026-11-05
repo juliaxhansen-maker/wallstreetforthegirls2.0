@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Financial Syllabus · Issue 07 | Wall Street for the Girls</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+:root { --paper:#FAF7F1; --ink:#22201D; --wine:#4D0E13; --rule:#D8C4AC; }
+* { box-sizing:border-box; }
+.issue-page main { width: 100%; margin-inline: 0; font: 1.13rem/1.65 var(--serif); }
+.issue-page main > article { min-width: 0; overflow-wrap: anywhere; }
+.issue-page article img { max-width: 100%; height: auto !important; }
+.issue-page article math[display="block"] { max-width: 100%; overflow-x: auto; }
+@media (min-width: 681px) {
+  .issue-page main {
+    display: grid;
+    grid-template-columns: minmax(0, 3.25fr) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  }
+}
+article { padding:2rem 0 4rem; }
+.issue-label { color:var(--wine); font:700 .75rem/1.4 system-ui,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+h1 { margin:.25em 0 .15em; font-size:clamp(2.6rem,8vw,5.6rem); line-height:.98; font-weight:400; letter-spacing:-.045em; }
+.deck { font-size:clamp(1.2rem,3vw,1.65rem); line-height:1.35; font-style:italic; }
+.disclaimer { color:#5C574E; font-size:.92rem; }
+h2 { margin:2rem 0 .6rem; padding-top:.6rem; border-top:1px solid var(--rule); color:var(--wine); line-height:1.2; }
+h3 { color:var(--wine); line-height:1.25; }
+article a { color:var(--wine); overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; font: .875rem/1.45 system-ui,sans-serif; }
+th,td { padding:.6rem; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; }
+th { background:#EFE4D7; color:var(--wine); }
+td p,th p { margin:0; }
+
+.definition-term { border: 0; padding: 0; background: none; color: var(--burgundy); font: inherit; font-weight: bold; text-decoration: underline dotted; text-underline-offset: .16em; cursor: pointer; }
+.definition-popup { width: min(90vw, 30rem); border: 1px solid var(--burgundy); background: var(--paper); color: var(--ink); padding: 1.4rem; }
+.definition-popup::backdrop { background: #22201D80; }
+.definition-popup form { text-align: right; }
+.definition-popup button { font: inherit; cursor: pointer; }
+.definition-popup h2 { margin-top: .5rem; }
+.definition-popup a { color: var(--burgundy); }
+
+.issue-nav { display:flex; flex-wrap:wrap; gap:.4rem 1.25rem; padding:.8rem 0; margin:1.4rem 0 2rem; border-block:1px solid var(--rule); font:600 .88rem/1.5 var(--sans); }
+.issue-nav a { padding:0; font:inherit; }
+.issue-nav [aria-current] { font-weight:800; }
+.issue-page article section + section { margin-top:clamp(2.5rem, 5vw, 4.5rem); }
+.issue-page article h3 { margin-top:1.7rem; }
+.issue-page article figure { margin:1.4rem 0; }
+.issue-page article figure img { max-width:100%; height:auto; display:block; }
+.issue-page article .table-wrap { margin-block:1.4rem; }
+.issue-page article td, .issue-page article th { white-space:pre-line; }
+.issue-page .source-note { margin-top:2.5rem; color:#5C574E; font-size:.9rem; }
+</style>
+</head>
+<body class="issue-page">
+  
+ <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+<main><article>
+<p class="issue-label">Issue 07 · June 24th, 2026</p>
+<h1>The Financial Syllabus</h1>
+<p class="deck">Inflation Is Like Glitter: Easy to Spread, Impossible to Clean Up</p>
+<nav class="issue-nav" aria-label="In this issue"><a href="issue-07.html">Main Article</a>
+<a href="foundation-07.html">The Foundation</a>
+<a href="financial-syllabus-fixed-income-07.html" aria-current="page">The Financial Syllabus</a></nav>
+<div id="syllabus"><p><em>Welcome to our new section! Moving forward, each issue will focus
+one out of the five pillars in relation to the topic of the issue. We’re
+going to look past the highlight reel, check what’s actually happening
+backstage, and focus on the mechanics to build our market intuition
+piece by piece.</em></p>
+<p>Before we get into our first deep dive, let’s first explain the five
+different market pillars the deep dives will cover.</p>
+<ol type="1">
+<li><p><strong>Fixed Income:</strong> The market for investments that
+pay out a set amount of interest over a specific timeline. This includes
+government bonds, corporate debt, credit spreads, and the <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="A financial chart that plots the interest rates of bonds with the same credit quality across different lengths of time, spanning from short-term borrowing to long-term debt." data-glossary="yield-curve">yield curves</button>
+that track central bank interest rate policies.</p></li>
+<li><p><strong>Equities:</strong> Ownership shares in publicly traded
+companies. This includes individual stocks, broader stock market
+indexes, corporate earnings updates, and IPO’s.</p></li>
+<li><p><strong>Foreign Exchange:</strong> The global marketplace where
+currencies are bought, sold, and traded against one another. This
+involves tracking major currency pairs, global currency pegs, exchange
+rate fluctuations, and the capital flows driven by international
+interest rate gaps.</p></li>
+<li><p><strong>Derivatives:</strong> Financial contracts whose value is
+"derived" from an underlying asset, like a stock or a currency. This
+includes options, futures contracts, interest rate swaps, and
+instruments designed to measure or hedge against market
+volatility.</p></li>
+<li><p><strong>Commodities &amp; Alternatives:</strong> These are
+tangible raw materials and non-traditional investments. This covers
+physical commodities (like crude oil, gold, and copper), digital assets
+like cryptocurrencies, and private markets like venture capital, private
+equity, and real estate.</p></li>
+</ol>
+<p>Now it’s time for our first deep dive!</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 19%">
+<col style="width: 21%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><strong>FIXED INCOME</strong></p>
+<p><strong>♡ Current Focus ♡</strong></p></th>
+<th>Equities</th>
+<th>Foreign Exchange</th>
+<th>derivatives</th>
+<th>commodities &amp; alternatives</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div><p>With sticky inflation forcing the ECB to raise interest rates this
+month, monetary policy is driving the global financial narrative. Since
+monetary policy establishes the framework for all international
+borrowing and debt, this week we are focusing on Fixed Income to analyze
+how bonds and yields are impacting the broader economy and market.</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 26%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th colspan="5"><strong>YIELD CURVE SNAPSHOT</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>2Y</strong></td>
+<td><strong>5Y</strong></td>
+<td><strong>10Y</strong></td>
+<td><strong>30Y</strong></td>
+</tr>
+<tr class="even">
+<td>Euro-area yields</td>
+<td>↑</td>
+<td>↑</td>
+<td>↑</td>
+<td>↑</td>
+</tr>
+<tr class="odd">
+<td colspan="5">Note: The directions shown illustrate how euro-area
+yields typically respond to a hawkish central bank and a weakening
+growth outlook, based on stablished fixed income theory and informed
+structural context. They are not live yield readings from the primary
+ECB report, and short-dated and long-dated yields can move at different
+speeds or directions on any given day.</td>
+</tr>
+</tbody>
+</table>
+</div><p>The snapshot above is deliberately simple and shows the direction of
+euro-area government bond yields across different lengths of time, from
+two years out to thirty. A yield is just the return an investor earns
+for lending to a government by buying its bond. The arrows point upward
+because a central bank that is raising rates and signalling more hikes
+pushes yields up across the board.</p>
+<p>But if we look past the shared upward direction, the yields on the
+different maturities are moving at different paces, and that is what
+brings us to the actual yield curve.</p>
+<p>In finance, the yield curve is a chart that plots the interest rate
+of bonds with the same credit quality across different maturities. You
+may also hear the term tenor instead of maturities, which is the
+technical term for the length of time until a bond matures, spanning
+from short-term 2-year to long-term 30-year maturities.</p>
+<p>In a perfect world, this curve slopes upward because time equals
+risk. If you lend money to a government for 30 years, a lot more can go
+wrong (inflation, recessions, world events) than if you lend it for just
+2 years. So, in a healthy economy, investors demand a higher interest
+rate for long-term bonds to compensate for that risk.</p>
+<p>This week, however, we are seeing the yield curve flattening. A curve
+"flattens" when the gap between short-term and long-term interest rates
+narrow. This happens when two different forces are pulling on opposite
+ends of the rope:</p>
+<ul>
+<li><p><strong>The Front End: Reacting to the ECB.</strong> Short-term
+yields are highly sensitive to immediate central bank moves. With the
+ECB just hiking rates and officials suggesting more hikes are to be
+expected, short-term yields are facing strong upward pressure.</p></li>
+<li><p><strong>The Back End: Worried about tomorrow.</strong> Long-term
+yields are driven by where investors think the economy is heading. This
+is where Chief Economist Philip Lane’s warning that even though
+inflation is sticky, the risks to economic growth are skewed to the
+downside and business activity is already taking a hit.</p></li>
+</ul>
+<p>When a central bank raises interest rates today, but the long-term
+outlook for growth looks weak, long-term yields fall behind short-term
+ones, flattening the curve. This reaction reflects a classic stagflation
+squeeze. Investors see the ECB lifting rates to fight inflation today,
+but they are deeply worried it will slow down economic growth
+tomorrow.</p>
+<p>To understand the practical impact of these rising yields, imagine
+you bought a 2-year government bond a year ago at a fixed interest rate
+of 2%. Because the ECB has started raising interest rates again, newly
+issued 2-year bonds are now paying closer to 3%. So now your older bond
+pays less than the new ones, causing its present value to drop.</p>
+<p>On paper, your safe investment lost value purely because a
+higher-rate environment emerged. This illustrates the inverse
+relationship between interest rates and bond prices where nothing
+changed with your underlying asset, but as market rates rose, its market
+value moved the other way.</p>
+<p>However, this higher rate environment also creates an opportunity for
+new capital. Newly issued short-term bonds are paying more than they
+have in years, so the same market shift that reduced the value of old
+bonds makes the new ones a more attractive investment.</p>
+<p><strong>The main takeaway:</strong> With the ECB raising rates for
+the first time since 2023 and signaling that inflation will remain above
+target for quite some time, the outlook has shifted for borrowers.
+Anyone holding off on refinancing in hopes that interest rates will drop
+soon may be waiting a long time, especially since the central bank is
+actively indicating that more hikes could be on the way.</p>
+</div>
+<p class="source-note"><a href="issue-07.html#references">Issue 07 references →</a></p>
+</article></main>
+<footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="https://wallstreetforthegirls.com/archive.html">Archive</a>
+      <a href="https://wallstreetforthegirls.com/about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+<dialog class="definition-popup" aria-labelledby="definition-title">
+  <form method="dialog"><button type="submit" aria-label="Close definition">Close ×</button></form>
+  <h2 id="definition-title"></h2>
+  <p class="definition-text"></p>
+  <a class="definition-source" href="glossary.html">Open in glossary →</a>
+</dialog>
+<script src="definitions.js" defer></script>
+</body></html>

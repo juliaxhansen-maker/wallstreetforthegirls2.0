@@ -1,1 +1,1 @@
-# wallstreetforthegirls2.0
+# wallstreetforthegirlsrebrand

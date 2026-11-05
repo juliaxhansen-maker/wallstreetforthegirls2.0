@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Financial Syllabus · Issue 17 | Wall Street for the Girls</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+:root { --paper:#FAF7F1; --ink:#22201D; --wine:#4D0E13; --rule:#D8C4AC; }
+* { box-sizing:border-box; }
+.issue-page main { width: 100%; margin-inline: 0; font: 1.13rem/1.65 var(--serif); }
+.issue-page main > article { min-width: 0; overflow-wrap: anywhere; }
+.issue-page article img { max-width: 100%; height: auto !important; }
+.issue-page article math[display="block"] { max-width: 100%; overflow-x: auto; }
+@media (min-width: 681px) {
+  .issue-page main {
+    display: grid;
+    grid-template-columns: minmax(0, 3.25fr) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  }
+}
+article { padding:2rem 0 4rem; }
+.issue-label { color:var(--wine); font:700 .75rem/1.4 system-ui,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+h1 { margin:.25em 0 .15em; font-size:clamp(2.6rem,8vw,5.6rem); line-height:.98; font-weight:400; letter-spacing:-.045em; }
+.deck { font-size:clamp(1.2rem,3vw,1.65rem); line-height:1.35; font-style:italic; }
+.disclaimer { color:#5C574E; font-size:.92rem; }
+h2 { margin:2rem 0 .6rem; padding-top:.6rem; border-top:1px solid var(--rule); color:var(--wine); line-height:1.2; }
+h3 { color:var(--wine); line-height:1.25; }
+article a { color:var(--wine); overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; font: .875rem/1.45 system-ui,sans-serif; }
+th,td { padding:.6rem; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; }
+th { background:#EFE4D7; color:var(--wine); }
+td p,th p { margin:0; }
+
+.definition-term { border: 0; padding: 0; background: none; color: var(--burgundy); font: inherit; font-weight: bold; text-decoration: underline dotted; text-underline-offset: .16em; cursor: pointer; }
+.definition-popup { width: min(90vw, 30rem); border: 1px solid var(--burgundy); background: var(--paper); color: var(--ink); padding: 1.4rem; }
+.definition-popup::backdrop { background: #22201D80; }
+.definition-popup form { text-align: right; }
+.definition-popup button { font: inherit; cursor: pointer; }
+.definition-popup h2 { margin-top: .5rem; }
+.definition-popup a { color: var(--burgundy); }
+
+.issue-nav { display:flex; flex-wrap:wrap; gap:.4rem 1.25rem; padding:.8rem 0; margin:1.4rem 0 2rem; border-block:1px solid var(--rule); font:600 .88rem/1.5 var(--sans); }
+.issue-nav a { padding:0; font:inherit; }
+.issue-nav [aria-current] { font-weight:800; }
+.issue-page article section + section { margin-top:clamp(2.5rem, 5vw, 4.5rem); }
+.issue-page article h3 { margin-top:1.7rem; }
+.issue-page article figure { margin:1.4rem 0; }
+.issue-page article figure img { max-width:100%; height:auto; display:block; }
+.issue-page article .table-wrap { margin-block:1.4rem; }
+.issue-page article td, .issue-page article th { white-space:pre-line; }
+.issue-page .source-note { margin-top:2.5rem; color:#5C574E; font-size:.9rem; }
+</style>
+</head>
+<body class="issue-page">
+  
+ <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+<main><article>
+<p class="issue-label">Issue 17 · August 23rd, 2026</p>
+<h1>The Financial Syllabus</h1>
+<p class="deck">Why One Price Rising Makes Everything Else Rise Too</p>
+<nav class="issue-nav" aria-label="In this issue"><a href="foundation-17.html">The Foundation</a>
+<a href="financial-syllabus-fixed-income-17.html" aria-current="page">The Financial Syllabus</a></nav>
+<div id="syllabus"><p><em><strong>Extra Credit Series: Inflation
+Expectations</strong></em></p>
+<p><strong>The Math Behind the Echo. How Much of a Price Shock Actually
+Survives</strong></p>
+<p>You already have the core distinction. A first round effect fades on
+its own. A <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="When an initial price shock, like energy, feeds into wages and other prices, so inflation keeps going even after the original cause fades.">second round effect</button> feeds itself through wages and
+expectations. But how would you actually tell the difference between the
+two? Well there are three questions worth asking.</p>
+<ol type="1">
+<li><p><strong>The pass through question.</strong></p></li>
+</ol>
+<p><strong>What share of current inflation comes from the original shock
+itself, versus from wages and other second round prices?</strong></p>
+<p>The useful framing is what fraction of the current reading is still
+attributable to that shock, and whether that fraction is rising or
+falling from month to month. A falling share, even during a period of
+high headline inflation, means the shock is behaving like a first round
+effect. A rising share is early evidence of a second round taking hold.
+The cleanest proxy most people can actually follow is the gap between
+headline inflation and <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="Inflation with volatile food and energy prices stripped out, used to see the underlying trend." data-glossary="core-inflation">core inflation</button>. A wide gap generally means the
+shock is still sitting in the volatile categories where it started. A
+gap that keeps closing means the increase is migrating into everything
+else which is an early sign of a second round.</p>
+<ol start="2" type="1">
+<li><p><strong>The wage gap question.</strong></p></li>
+</ol>
+<p><em><strong>Is nominal wage growth running ahead of, in line with, or
+behind inflation, and has that relationship recently
+flipped?</strong></em></p>
+<p>This is the checkable version of asking whether a spiral is actually
+happening, rather than simply feared. A common mistake is treating
+falling real wages, meaning wages adjusted for inflation, as proof that
+no spiral is occurring. It can mean the opposite is true. Workers have
+not yet caught up to the prices they are facing and are still trying to
+close that gap. What matters is the trend in the gap between nominal
+wage growth and inflation over time, not the level of either line on its
+own.</p>
+<ol start="3" type="1">
+<li><p><strong>The expectations question.</strong></p></li>
+</ol>
+<p><em><strong>Are long run expectations still anchored near target, or
+have they started drifting?</strong></em></p>
+<p>Consumer expectations are captured through surveys that ask
+households directly what inflation they expect over the coming year and
+over the next five to ten years. Market based measures exist too, most
+notably the gap between ordinary government bond yields and inflation
+protected bond yields, which reflects what investors are collectively
+pricing in for future inflation. When either measure drifts meaningfully
+away from a central bank's target, that is what officials mean when they
+say expectations have become unanchored.</p>
+<p><strong>Working the Pass Through Math</strong></p>
+<p>Let’s start with the arithmetic question. Take a price index that is
+equal to one hundred. One category inside it jumps ten percent in a
+single month and then never moves again. Here is what the twelve month
+inflation rate for that category looks like along the way.</p>
+<p>Month 0 index 100 before the shock</p>
+<p>Month 1 index 110 vs 100 a year earlier up 10 percent</p>
+<p>Month 6 index 110 vs 100 a year earlier up 10 percent</p>
+<p>Month 12 index 110 vs 100 a year earlier up 10 percent</p>
+<p>Month 13 index 110 vs 110 a year earlier up 0 percent</p>
+<p>The price never came back down. The category is still ten percent
+more expensive than it was, permanently. But its contribution to the
+yearly inflation rate falls to exactly zero in month thirteen, because
+the comparison month now already contains the increase. That is the
+whole of what a first round effect does mathematically.</p>
+<p><strong>Reading the Current Shock</strong></p>
+<p>Fighting near the Strait of Hormuz has repeatedly disrupted the flow
+of crude, and gas at the pump has followed it upward. That is a textbook
+first round shock, and the question worth asking is not whether it
+happened. It obviously did. The question is whether it stays a first
+round shock or starts migrating into the second round.</p>
+<p>Run question one against it using the framework above. Watch the gap
+between headline and core inflation in the months ahead. If that gap
+holds roughly steady or widens, the shock is behaving the way a first
+round effect is supposed to, sitting in energy prices and waiting to age
+out of the twelve month comparison. If core starts climbing to meet
+headline while energy itself levels off, that migration is the tell.</p>
+<p>Run question two against it by watching whether wage growth
+accelerates in the months following the spike or stays roughly where it
+was. A shock that never shows up in wage negotiations has a much harder
+time becoming self-sustaining because nothing is refilling the loop.</p>
+<p>Run question three against it by watching the gap between near term
+and long run inflation expectations. It would be unusual for near term
+expectations not to move at all when people are watching gas prices rise
+in front of them. What actually carries information is whether the long
+run number moves with it or holds where it was. A near term jump paired
+with a steady long run number is a very different signal than both
+numbers moving together.</p>
+<p>None of this requires a forecast. It requires watching three specific
+relationships over the months ahead rather than reacting to a single
+headline print, which is precisely the discipline the Foundation piece
+was building toward.</p>
+<p><strong>What to Take From This</strong></p>
+<p>The next time an inflation headline lands, whether it involves oil, a
+tariff, or something else entirely, the same three questions apply. What
+share of the number is pass through from the original shock, and is that
+share rising or falling. Is nominal wage growth gaining on inflation or
+losing ground to it and has that trend recently turned. And are long run
+expectations, whichever way you choose to track them, still sitting
+close to target or starting to drift.</p>
+</div>
+</article></main>
+<footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="https://wallstreetforthegirls.com/archive.html">Archive</a>
+      <a href="https://wallstreetforthegirls.com/about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+<dialog class="definition-popup" aria-labelledby="definition-title">
+  <form method="dialog"><button type="submit" aria-label="Close definition">Close ×</button></form>
+  <h2 id="definition-title"></h2>
+  <p class="definition-text"></p>
+  <a class="definition-source" href="glossary.html">Open in glossary →</a>
+</dialog>
+<script src="definitions.js" defer></script>
+</body></html>

@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Financial Syllabus · Issue 18 | Wall Street for the Girls</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+:root { --paper:#FAF7F1; --ink:#22201D; --wine:#4D0E13; --rule:#D8C4AC; }
+* { box-sizing:border-box; }
+.issue-page main { width: 100%; margin-inline: 0; font: 1.13rem/1.65 var(--serif); }
+.issue-page main > article { min-width: 0; overflow-wrap: anywhere; }
+.issue-page article img { max-width: 100%; height: auto !important; }
+.issue-page article math[display="block"] { max-width: 100%; overflow-x: auto; }
+@media (min-width: 681px) {
+  .issue-page main {
+    display: grid;
+    grid-template-columns: minmax(0, 3.25fr) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  }
+}
+article { padding:2rem 0 4rem; }
+.issue-label { color:var(--wine); font:700 .75rem/1.4 system-ui,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+h1 { margin:.25em 0 .15em; font-size:clamp(2.6rem,8vw,5.6rem); line-height:.98; font-weight:400; letter-spacing:-.045em; }
+.deck { font-size:clamp(1.2rem,3vw,1.65rem); line-height:1.35; font-style:italic; }
+.disclaimer { color:#5C574E; font-size:.92rem; }
+h2 { margin:2rem 0 .6rem; padding-top:.6rem; border-top:1px solid var(--rule); color:var(--wine); line-height:1.2; }
+h3 { color:var(--wine); line-height:1.25; }
+article a { color:var(--wine); overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; font: .875rem/1.45 system-ui,sans-serif; }
+th,td { padding:.6rem; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; }
+th { background:#EFE4D7; color:var(--wine); }
+td p,th p { margin:0; }
+
+.definition-term { border: 0; padding: 0; background: none; color: var(--burgundy); font: inherit; font-weight: bold; text-decoration: underline dotted; text-underline-offset: .16em; cursor: pointer; }
+.definition-popup { width: min(90vw, 30rem); border: 1px solid var(--burgundy); background: var(--paper); color: var(--ink); padding: 1.4rem; }
+.definition-popup::backdrop { background: #22201D80; }
+.definition-popup form { text-align: right; }
+.definition-popup button { font: inherit; cursor: pointer; }
+.definition-popup h2 { margin-top: .5rem; }
+.definition-popup a { color: var(--burgundy); }
+
+.issue-nav { display:flex; flex-wrap:wrap; gap:.4rem 1.25rem; padding:.8rem 0; margin:1.4rem 0 2rem; border-block:1px solid var(--rule); font:600 .88rem/1.5 var(--sans); }
+.issue-nav a { padding:0; font:inherit; }
+.issue-nav [aria-current] { font-weight:800; }
+.issue-page article section + section { margin-top:clamp(2.5rem, 5vw, 4.5rem); }
+.issue-page article h3 { margin-top:1.7rem; }
+.issue-page article figure { margin:1.4rem 0; }
+.issue-page article figure img { max-width:100%; height:auto; display:block; }
+.issue-page article .table-wrap { margin-block:1.4rem; }
+.issue-page article td, .issue-page article th { white-space:pre-line; }
+.issue-page .source-note { margin-top:2.5rem; color:#5C574E; font-size:.9rem; }
+</style>
+</head>
+<body class="issue-page">
+  
+ <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+<main><article>
+<p class="issue-label">Issue 18 · August 27th, 2026</p>
+<h1>The Financial Syllabus</h1>
+<p class="deck">The Company That Gives You a Raise vs. The One That Buys You a Gift Card</p>
+<nav class="issue-nav" aria-label="In this issue"><a href="foundation-18.html">The Foundation</a>
+<a href="financial-syllabus-equities-18.html" aria-current="page">The Financial Syllabus</a></nav>
+<div id="syllabus"><p><em><strong>Extra Credit Series: Capital Allocation</strong></em></p>
+<p>You already have the core distinction from the Foundation. A dividend
+is direct, immediate, and taxed on arrival. A buyback is indirect,
+deferred, and taxed on your own terms. A falling share count can lift
+<button type="button" class="definition-term" aria-haspopup="dialog" data-definition="A company's profit divided by its number of shares. A per-share slice of the profit.">EPS</button> with zero improvement in the underlying business. Now we're going
+further.</p>
+<p>This piece is about how to actually analyze the number when you see
+one: how much of a reported EPS gain is genuine, what the tax deferral
+is actually worth, and whether a company buying back its own stock is
+making a good decision or simply an easy one.</p>
+<ol type="1">
+<li><p><strong>How much of this EPS growth is actually
+real?</strong></p></li>
+</ol>
+<p>EPS is a ratio and a ratio can move for two completely different
+reasons. The top of it changed, the bottom of it changed, or both can
+change at once. A headline that says "EPS grew 15%" almost never tells
+you which. A good habit is to check what growth would look like with a
+flat share count, then treat any gap from the reported number as coming
+from arithmetic, not actual performance.</p>
+<p>Say a company reports EPS growth of 15% year over year — a headline
+number that would read as genuinely strong. Here's what's actually
+sitting underneath it.</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table style="width:100%;">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Net Income</th>
+<th>Shares Outstanding</th>
+<th>EPS</th>
+<th>EPS Growth</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Year 1</td>
+<td>$200M</td>
+<td>100M</td>
+<td>$2.00</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Year 2 (actual)</td>
+<td>$215M</td>
+<td>93.5M</td>
+<td>$2.30</td>
+<td>+15%</td>
+</tr>
+<tr class="odd">
+<td>Year 2 (if share count had stayed flat)</td>
+<td>$215M</td>
+<td>100M</td>
+<td>$2.15</td>
+<td>+7.5%</td>
+</tr>
+</tbody>
+</table>
+</div><p>Net income actually grew 7.5%, from $200 million to $215 million. But
+the company also spent cash buying back roughly 6.5 million shares over
+the year, and that alone accounts for the rest of the gap. If share
+count had stayed exactly where it started, EPS would have grown 7.5%,
+not 15%.</p>
+<p>Half the headline number was the business. The other half was
+arithmetic.</p>
+<p>Headlines that say "EPS grew 15%" and "the business grew 15%" are two
+different claims, and only one of them is actually being made by that
+number.</p>
+<ol start="2" type="1">
+<li><p><strong>Is the company buying back stock because it's cheap, or
+because it has nothing better to do with the cash?</strong></p></li>
+</ol>
+<p>A buyback is a capital allocation decision. The company is choosing
+to put its cash into its own stock instead of new equipment, research,
+an acquisition, paying down debt, or simply holding a bigger buffer.
+That choice is good for existing shareholders if the stock is actually
+undervalued at the price the company is paying for it. It's a much
+weaker decision if the company is buying simply because it has more cash
+sitting around than it knows what to do with.</p>
+<ol start="3" type="1">
+<li><p><strong>If you never sold a single share, which method would
+actually cost you more?</strong></p></li>
+</ol>
+<p>This is the tax timing question using real numbers instead of a
+general statement about "deferral."</p>
+<p>Imagine an investor puts $10,000 into two otherwise identical
+companies, each generating the same underlying value every year — $500
+annually, a 5% return on the initial investment. One company pays that
+$500 out as a dividend every year. The other uses it to buy back stock
+instead, so the investor's existing shares become worth $500 more each
+year without anything being distributed.</p>
+<p>Assume a flat 15% tax rate on qualified dividends:</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Annual Value Delivered</th>
+<th>Tax Owed Per Year</th>
+<th>Tax Owed Over 10 Years</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dividend company</td>
+<td>$500</td>
+<td>$75</td>
+<td>$750</td>
+</tr>
+<tr class="even">
+<td>Buyback company</td>
+<td>$500 (unrealized)</td>
+<td>$0</td>
+<td>$0</td>
+</tr>
+</tbody>
+</table>
+</div><p>One investor owes $750 in tax by the end of ten years, having paid on
+money they may not have even wanted that particular year. The other owes
+nothing, for as long as they simply don't sell. That gap is the
+dollar-denominated version of "you choose when a buyback gets taxed."
+Under the right circumstances, that choice can extend all the way to
+never.</p>
+<p><strong>Whose Decision Is It, Really?</strong></p>
+<p>Question two is less about arithmetic and more about judgment,
+specifically whether the company doing the buying is actually being
+disciplined about it.</p>
+<p>The uncomfortable pattern is that companies have tended to buy back
+the most stock exactly when they have the lots of extra cash sitting
+around. That tends to follow periods of strong performance, when the
+stock is often expensive, not cheap. And companies have tended to pull
+back sharply on buybacks once a downturn actually arrives and the stock
+is genuinely on sale, because that's precisely when cash gets tight and
+companies get cautious.</p>
+<p>That's close to the opposite of a disciplined 'buy low' strategy.
+Worth checking: do buybacks actually line up with periods when the stock
+looked cheap relative to its own history? Or do they just track how much
+free cash happened to be on hand that quarter?</p>
+<p>Some investors treat a dividend as a "harder" signal of financial
+health than earnings growth since a cash dividend requires an actual
+board decision and actual money leaving the company's account. Reported
+earnings — and therefore EPS, along with any EPS growth driven by a
+buyback — are more exposed to the judgment calls behind how a company
+reports its numbers.</p>
+<p>Which brings up the real conflict of interest underneath a lot of
+buyback decisions. When a company ties executive bonuses or stock awards
+to a specific EPS target, buybacks become a direct, mechanical way to
+hit that number. It doesn't matter whether the underlying business
+actually grew. It doesn't matter whether the stock is a good buy at the
+current price. The company doesn't need to earn its way there. It can
+simply shrink the denominator instead.</p>
+<p>That's not the whole story, in fairness. The counterargument is a
+reasonable one. Buybacks genuinely are an efficient way to return cash
+to shareholders when a company has no better use for it. And the
+incentive problem above is really a flaw in how the executive is being
+paid, not a flaw in buybacks as a tool. A company with a well-designed
+compensation structure and a disciplined buyback policy can use both
+perfectly well. The debate isn't really 'dividends good, buybacks bad.'
+It's whether the decision-makers doing the buying have good reasons for
+doing it, and whether you, as the person reading the announcement, have
+any way of checking.</p>
+<p><strong>What to Take From This</strong></p>
+<p>A reported EPS number, a buyback announcement, and a dividend check
+are three different claims that use the same headline. One is a
+statement about the business. One is a statement about arithmetic. One
+is a statement about cash that already left the building.</p>
+<p>Before you decide what any of them means for a company you're
+watching, or holding, ask how much of the growth is real, whether the
+company doing the buying actually has a good reason to, and what the
+timing of the tax bill is actually costing or saving you.</p>
+</div>
+</article></main>
+<footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="https://wallstreetforthegirls.com/archive.html">Archive</a>
+      <a href="https://wallstreetforthegirls.com/about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+<dialog class="definition-popup" aria-labelledby="definition-title">
+  <form method="dialog"><button type="submit" aria-label="Close definition">Close ×</button></form>
+  <h2 id="definition-title"></h2>
+  <p class="definition-text"></p>
+  <a class="definition-source" href="glossary.html">Open in glossary →</a>
+</dialog>
+<script src="definitions.js" defer></script>
+</body></html>
