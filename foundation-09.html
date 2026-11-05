@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Foundation · Issue 09 | Wall Street for the Girls</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+:root { --paper:#FAF7F1; --ink:#22201D; --wine:#4D0E13; --rule:#D8C4AC; }
+* { box-sizing:border-box; }
+.issue-page main { width: 100%; margin-inline: 0; font: 1.13rem/1.65 var(--serif); }
+.issue-page main > article { min-width: 0; overflow-wrap: anywhere; }
+.issue-page article img { max-width: 100%; height: auto !important; }
+.issue-page article math[display="block"] { max-width: 100%; overflow-x: auto; }
+@media (min-width: 681px) {
+  .issue-page main {
+    display: grid;
+    grid-template-columns: minmax(0, 3.25fr) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  }
+}
+article { padding:2rem 0 4rem; }
+.issue-label { color:var(--wine); font:700 .75rem/1.4 system-ui,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+h1 { margin:.25em 0 .15em; font-size:clamp(2.6rem,8vw,5.6rem); line-height:.98; font-weight:400; letter-spacing:-.045em; }
+.deck { font-size:clamp(1.2rem,3vw,1.65rem); line-height:1.35; font-style:italic; }
+.disclaimer { color:#5C574E; font-size:.92rem; }
+h2 { margin:2rem 0 .6rem; padding-top:.6rem; border-top:1px solid var(--rule); color:var(--wine); line-height:1.2; }
+h3 { color:var(--wine); line-height:1.25; }
+article a { color:var(--wine); overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; font: .875rem/1.45 system-ui,sans-serif; }
+th,td { padding:.6rem; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; }
+th { background:#EFE4D7; color:var(--wine); }
+td p,th p { margin:0; }
+
+.definition-term { border: 0; padding: 0; background: none; color: var(--burgundy); font: inherit; font-weight: bold; text-decoration: underline dotted; text-underline-offset: .16em; cursor: pointer; }
+.definition-popup { width: min(90vw, 30rem); border: 1px solid var(--burgundy); background: var(--paper); color: var(--ink); padding: 1.4rem; }
+.definition-popup::backdrop { background: #22201D80; }
+.definition-popup form { text-align: right; }
+.definition-popup button { font: inherit; cursor: pointer; }
+.definition-popup h2 { margin-top: .5rem; }
+.definition-popup a { color: var(--burgundy); }
+
+.issue-nav { display:flex; flex-wrap:wrap; gap:.4rem 1.25rem; padding:.8rem 0; margin:1.4rem 0 2rem; border-block:1px solid var(--rule); font:600 .88rem/1.5 var(--sans); }
+.issue-nav a { padding:0; font:inherit; }
+.issue-nav [aria-current] { font-weight:800; }
+.issue-page article section + section { margin-top:clamp(2.5rem, 5vw, 4.5rem); }
+.issue-page article h3 { margin-top:1.7rem; }
+.issue-page article figure { margin:1.4rem 0; }
+.issue-page article figure img { max-width:100%; height:auto; display:block; }
+.issue-page article .table-wrap { margin-block:1.4rem; }
+.issue-page article td, .issue-page article th { white-space:pre-line; }
+.issue-page .source-note { margin-top:2.5rem; color:#5C574E; font-size:.9rem; }
+</style>
+</head>
+<body class="issue-page">
+  
+ <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+<main><article>
+<p class="issue-label">Issue 09 · July 1st, 2026</p>
+<h1>The Foundation</h1>
+<p class="deck">Never Keep All Your Trust in One Currency, Even the Dollar</p>
+<nav class="issue-nav" aria-label="In this issue"><a href="issue-09.html">Main Article</a>
+<a href="foundation-09.html" aria-current="page">The Foundation</a>
+<a href="syllabus-09.html">The Financial Syllabus</a></nav>
+<div id="foundation"><p><em><strong>Before we dive in, here’s the one thing to know this
+week.</strong></em></p>
+<p>There is a special prize that comes with printing the money the
+entire world wants to hold, and economists have a name for it. They call
+it the dollar's <em><strong><button type="button" class="definition-term" aria-haspopup="dialog" data-definition="The unique advantage the US gets from issuing the world's main reserve currency. Since the world always needs dollars, it can borrow more cheaply and easily than other countries." data-glossary="exorbitant-privilege">exorbitant privilege</button></strong></em>, and it
+describes the unique advantage the US enjoys simply from issuing the
+currency everyone else needs.</p>
+<p>Here is how that privilege works.</p>
+<p>Because the whole world needs dollars, to trade, to hold in reserve,
+to feel safe, there is always a line of buyers for them. That permanent
+demand lets the US borrow more cheaply and more comfortably than any
+other country, because there is always someone wanting what it is
+selling.</p>
+<p>Imagine being the one shop in town that every single person has to
+visit. You can set your terms a little more in your favour, because you
+know the customers are coming regardless. That structural advantage is
+something most countries can only dream of, and the dollar has held it
+for the better part of a century.</p>
+<p>But that prize rests entirely on one fragile thing.</p>
+<p>The world has to keep <em>choosing</em> to hold the currency. The
+privilege is not a law of nature, it is closer to a popularity contest
+that has to be won again every single year. And the moment the world's
+biggest holders begin, even slightly, to hold a little less, the ground
+beneath that privilege starts to move.</p>
+<p>So when a survey shows central banks planning to trim their dollars
+over the next decade, it is not a dry portfolio note. It is the first
+signal that the most valuable financial advantage on earth is being
+reconsidered by the very people who grant it.</p>
+<p>Keep that picture in your head, the one shop everyone has to visit,
+slowly noticing a few customers glance at the door, and the rest of this
+issue clicks into place.</p>
+<h2><strong>WHAT ACTUALLY MATTERS THIS WEEK</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>✦ The Signal</strong></th>
+<th></th>
+<th><strong>✦ The Noise</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The direction flipped for the first time. More central banks now
+plan to cut their dollar holdings than add to them over the coming
+decade. The reason is political risk rather than poor returns. That is a
+structural shift, the kind that unfolds across years rather than days,
+which is precisely why it is worth catching now.</p>
+<p>Gold moved to the center to the very heart of reserve strategy. Held
+by 82% of central banks, with a net 30% planning to add more in the near
+term. The most cautious, longest-horizon investors in the world just
+told us what they are reaching for, and it is gold.</p>
+<p>79% of central banks now believe the system is drifting toward a
+multipolar world where no single currency dominates. When that many
+serious institutions independently picture the same future, a private
+worry becomes a consensus.</p></td>
+<td></td>
+<td><p>The dollar is up this year, it rose about 3% in 2026, and it is
+easy to read that as proof nothing is changing.</p>
+<p>But that can be a bit confusing. The dollar's price today and its
+role over the next decade are separate questions, and this week they
+point in opposite directions.</p>
+<p>The day-to-day moves are noise too. Whether the dollar moves up or
+down tells us almost nothing about the slow story underneath. The
+direction of intention among the people who hold trillions of it is the
+only level that matters this week.</p>
+<p>The AI headline sounds like the story but is not. The rush among
+central banks to adopt AI is real but it is a symptom of the deeper
+theme, not the theme itself. The reserve story is the main
+event.</p></td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>WHAT’S MOVING IN MARKETS</strong></h2>
+<p>The <strong>dollar</strong> is the whole story this week, pulled in
+two directions at once. In the near term it stays strong supported by
+high US interest rates, steady demand for American assets, and safe
+haven flows from the US-Iran war. Underneath that strength, the people
+who hold the most dollars have signalled their intention to slowly hold
+fewer. The dollar looks firm on the surface and questioned beneath it,
+and the distance between those two truths is the important thing
+happening in markets right now.</p>
+<p><strong>Gold</strong> is the winner this week. It has been running
+near record highs, and the survey placed it at the very center of
+reserve strategy. The reason it specifically makes sense is the same
+reason the trust analogy works. The fear driving this shift is
+political, and gold is the one major reserve asset that belongs to no
+government, answers to no single nation's politics, and has no country
+attached to it at all.</p>
+<p>The <strong>smaller reserve currencies</strong> are quietly gaining
+ground. The Norwegian krone, the New Zealand dollar, and the British
+pound are all gaining reserve interest as big institutions spread their
+trust wider. None of these is about to rival the dollar. But the fact
+that serious money is even looking their way is the texture of the
+bigger shift in real time.</p>
+<p>The <strong>euro and the Chinese renminbi</strong>, the two most
+often named as potential dollar challengers, are a more complicated
+picture. Reserve managers still intend to hold more of both but flagged
+structural challenges for each. The renminbi in particular is valued as
+a diversifier rather than a successor. Wanting a little of something is
+a world away from trusting it with everything.</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 19%">
+<col style="width: 18%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>ASSET</strong></th>
+<th><strong>DIRECTION</strong></th>
+<th><strong>WHY IT MATTERS</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>USD (near-term)</td>
+<td>↑</td>
+<td>Still firm on high US rates, asset demand, and Iran-war safety
+flows</td>
+</tr>
+<tr class="even">
+<td>USD (long-term)</td>
+<td>↓</td>
+<td>For the first time, more central banks plan to trim dollars than add
+them</td>
+</tr>
+<tr class="odd">
+<td>Gold</td>
+<td>↑</td>
+<td>Near record highs and now at the center of reserve strategy; net 30%
+plan to add</td>
+</tr>
+<tr class="even">
+<td>NOK / NZD / GBP</td>
+<td>↑</td>
+<td>Smaller currencies gaining reserve interest as trust spreads
+wider</td>
+</tr>
+<tr class="odd">
+<td>EUR / CNY</td>
+<td>↔︎</td>
+<td>Intentions to add intact, but structural challenges cap the
+appeal</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>CURRENCY &amp; INTEREST RATE</strong></p>
+<p><em><strong>Note:</strong> This week's article is a reserves and FX
+story and does not publish specific exchange rate levels, bond yields,
+or central bank rate decisions. The view below is informed context built
+around the survey's direction of travel, not live figures from the
+source.</em></p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Where currencies stand</strong></th>
+<th></th>
+<th><strong>The reserve picture</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong>USD:</strong> Strong today but questioned for tomorrow.
+The dollar is up around 3% this year on high US rates, demand for US
+assets, and safe haven flows from the US-Iran war. The genuinely new
+development is that reserve managers, for the first time, intend to
+reduce their dollar share over the coming decade.</p>
+<p><strong>EUR and CNY:</strong> Both remain on reserve managers' lists
+but with visible hesitation. Each faces its own structural hurdles, so
+neither is positioned to inherit the dollar's crown. The renminbi in
+particular is valued as a diversifier, not a successor.</p>
+<p><strong>Smaller currencies:</strong> The Norwegian krone, New Zealand
+dollar, and sterling are all drawing new interest. A real sign of trust
+being spread more thinly across more places rather than handed to a
+single replacement.</p>
+<p><strong>KEY FX SIGNAL TO WATCH:</strong> Not a price level this week,
+but a balance. The number of central banks planning to cut dollars
+versus those planning to add. That balance just tipped for the first
+time, and which way it leans from here is what actually
+matters.</p></td>
+<td></td>
+<td><p>The <strong>dollar's status</strong> is the subject this week.
+Its dominance has always rested on the world's willingness to keep
+holding it, and that willingness is still overwhelmingly there. It is
+simply no longer unconditional. This survey is the first formal record
+of the change.</p>
+<p><strong>Gold</strong> is the chosen home for displaced trust, not as
+a currency but as a store of value answerable to no single government,
+which is exactly why it fits the political worry driving the shift.</p>
+<p>The <strong>broader system</strong> is seen by 79% of central banks
+as drifting toward a multipolar world, where several currencies share
+the role the dollar holds alone today.</p>
+<p><strong>KEY RESERVE SIGNAL TO WATCH:</strong> The net share of
+central banks planning to add gold. It is the cleanest single read on
+how seriously the world is taking the idea of spreading its
+trust.</p></td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>HOW IT ALL CONNECTS</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>US policy uncertainty and geopolitical tension → political risk
+attaches to the dollar itself → central banks plan to diversify reserves
+over the next decade → trust spreads into gold, smaller currencies, and
+emerging markets → the system drifts slowly toward a multipolar
+world</em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div><p>What makes this week different from an ordinary market move is that
+nothing actually broke. There was no crash, no crisis, no single bad day
+to blame. The dollar is still strong and the main safe haven. However,
+the most important holders of it have begun to plan for a future where
+they depend on it a little less. This is not a reaction to an event. It
+is a slow change of mindset and these are more difficult to notice but
+more important than the dramatic ones that make the front page.</p>
+<p>The reason it is so hard to reverse is that it depends on something
+money cannot easily buy, which is trust. The dollar earned its dominance
+over decades of being the safest, most reliable thing to hold to the
+point where the world stopped checking. Once the world starts wondering
+whether that safety carries a political price, no single strong year and
+no single good headline fully restores the automatic confidence. The
+dollar is not being abandoned, it is just being re-examined.</p>
+<p>The truth about trust, the kind between friends and the kind between
+nations and their currencies, is that once something has been
+re-examined, it is almost impossible to go back to taking it completely
+for granted. That is the structural force underneath this week's story,
+and it is why a survey, of all unglamorous things, deserves your full
+attention.</p>
+<p>So how would we know whether this is a genuine shift rather than a
+temporary change?</p>
+<p>Well, this isn’t a prediction, it is just the mechanism that is worth
+matching. If this is a genuine shift, the tell will not be a dramatic
+crash in the dollar. It will be the boring stuff repeating. Next year's
+version of this same survey showing the arrow still pointing the same
+way. Gold holding its place at the center of reserve strategy. More
+small currencies, not fewer, turning up in the conversation. The thing
+to understand is that a real reserve shift confirms itself through
+repetition, not drama. The signal to watch for is not a single shocking
+headline but the same quiet finding showing up again, and then again. If
+instead the dollar's strength pulls everyone back and next year's survey
+reverses, that tells us this year was a wobble, not a turning point.</p>
+<h2><strong>WHY THIS MATTERS TO YOU</strong></h2>
+<p><em><strong>The broader market picture</strong></em></p>
+<p>Markets carry a mildly cautious mood this week, with gold near record
+highs and the world still watching the US-Iran situation closely. But
+the deeper message has very little to do with today's mood. It is about
+a slow shift in how the most powerful financial institutions on earth
+define safety itself. For decades, safety simply meant the dollar. Now,
+for the first time, safety is being spread across more places at once,
+with gold leading the way and a long tail of smaller currencies and real
+assets behind it. This is not a crisis, and nothing about it asks anyone
+to do a single thing today. It is a long change worth understanding
+while it is still early, mainly because most people will only notice it
+once it has already happened.</p>
+<p><em><strong>If you are building your financial
+literacy</strong></em></p>
+<p>Most of us fall into this first category, so let's start there. The
+lesson is the thing worth keeping: the safest looking option is rarely
+the whole answer, and the people who manage trillions just reminded us
+that spreading trust, rather than concentrating it, is what careful
+money does. That principle scales all the way down to a first savings
+account. Noticing how this works now is the real takeaway, long before
+any of it touches your own money.</p>
+<p><em><strong>If this connects to your work or
+portfolio</strong></em></p>
+<p>For those of you running a business or investing, here is what this
+week's story means a little closer to home.</p>
+<ul>
+<li><p>If you are an <strong>importer</strong>: If you pay in dollars,
+the currency’s near term strength is keeping your costs firm. It is
+worth being aware that the dollar's strength today and its longer-term
+direction are being pulled apart, so the picture a few years out may not
+resemble today's.</p></li>
+<li><p>If you are an <strong>exporter</strong>: If you hold dollar
+receivables, the firm dollar is still working in your favour for now. It
+is worth knowing that part of that strength comes from safe haven flows,
+which can fade as quickly as the fear that created them.</p></li>
+<li><p>If you are a <strong>borrower</strong>: US rates have stayed
+higher for longer, keeping dollar borrowing costs elevated. For anyone
+holding dollar denominated debt, the fixed-versus-floating question
+remains one to keep an eye on.</p></li>
+<li><p>If you are an <strong>investor</strong>: You may be far more
+dollar concentrated than you realize. That's largely because so much of
+the global financial system quietly runs on the dollar. The question
+worth sitting with is whether you actually know how much of what you own
+depends on the dollar staying exactly where it is.</p></li>
+</ul>
+</div>
+<p class="source-note"><a href="issue-09.html#references">Issue 09 references →</a></p>
+</article></main>
+<footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="https://wallstreetforthegirls.com/archive.html">Archive</a>
+      <a href="https://wallstreetforthegirls.com/about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+<dialog class="definition-popup" aria-labelledby="definition-title">
+  <form method="dialog"><button type="submit" aria-label="Close definition">Close ×</button></form>
+  <h2 id="definition-title"></h2>
+  <p class="definition-text"></p>
+  <a class="definition-source" href="glossary.html">Open in glossary →</a>
+</dialog>
+<script src="definitions.js" defer></script>
+</body></html>

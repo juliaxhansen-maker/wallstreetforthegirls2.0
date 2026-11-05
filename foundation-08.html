@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Foundation · Issue 08 | Wall Street for the Girls</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+:root { --paper:#FAF7F1; --ink:#22201D; --wine:#4D0E13; --rule:#D8C4AC; }
+* { box-sizing:border-box; }
+.issue-page main { width: 100%; margin-inline: 0; font: 1.13rem/1.65 var(--serif); }
+.issue-page main > article { min-width: 0; overflow-wrap: anywhere; }
+.issue-page article img { max-width: 100%; height: auto !important; }
+.issue-page article math[display="block"] { max-width: 100%; overflow-x: auto; }
+@media (min-width: 681px) {
+  .issue-page main {
+    display: grid;
+    grid-template-columns: minmax(0, 3.25fr) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  }
+}
+article { padding:2rem 0 4rem; }
+.issue-label { color:var(--wine); font:700 .75rem/1.4 system-ui,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+h1 { margin:.25em 0 .15em; font-size:clamp(2.6rem,8vw,5.6rem); line-height:.98; font-weight:400; letter-spacing:-.045em; }
+.deck { font-size:clamp(1.2rem,3vw,1.65rem); line-height:1.35; font-style:italic; }
+.disclaimer { color:#5C574E; font-size:.92rem; }
+h2 { margin:2rem 0 .6rem; padding-top:.6rem; border-top:1px solid var(--rule); color:var(--wine); line-height:1.2; }
+h3 { color:var(--wine); line-height:1.25; }
+article a { color:var(--wine); overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; font: .875rem/1.45 system-ui,sans-serif; }
+th,td { padding:.6rem; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; }
+th { background:#EFE4D7; color:var(--wine); }
+td p,th p { margin:0; }
+
+.definition-term { border: 0; padding: 0; background: none; color: var(--burgundy); font: inherit; font-weight: bold; text-decoration: underline dotted; text-underline-offset: .16em; cursor: pointer; }
+.definition-popup { width: min(90vw, 30rem); border: 1px solid var(--burgundy); background: var(--paper); color: var(--ink); padding: 1.4rem; }
+.definition-popup::backdrop { background: #22201D80; }
+.definition-popup form { text-align: right; }
+.definition-popup button { font: inherit; cursor: pointer; }
+.definition-popup h2 { margin-top: .5rem; }
+.definition-popup a { color: var(--burgundy); }
+
+.issue-nav { display:flex; flex-wrap:wrap; gap:.4rem 1.25rem; padding:.8rem 0; margin:1.4rem 0 2rem; border-block:1px solid var(--rule); font:600 .88rem/1.5 var(--sans); }
+.issue-nav a { padding:0; font:inherit; }
+.issue-nav [aria-current] { font-weight:800; }
+.issue-page article section + section { margin-top:clamp(2.5rem, 5vw, 4.5rem); }
+.issue-page article h3 { margin-top:1.7rem; }
+.issue-page article figure { margin:1.4rem 0; }
+.issue-page article figure img { max-width:100%; height:auto; display:block; }
+.issue-page article .table-wrap { margin-block:1.4rem; }
+.issue-page article td, .issue-page article th { white-space:pre-line; }
+.issue-page .source-note { margin-top:2.5rem; color:#5C574E; font-size:.9rem; }
+</style>
+</head>
+<body class="issue-page">
+  
+ <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+<main><article>
+<p class="issue-label">Issue 08 · June 28th, 2026</p>
+<h1>The Foundation</h1>
+<p class="deck">Volkswagen Sold Half of Its Wardrobe but Kept the Investment Piece</p>
+<nav class="issue-nav" aria-label="In this issue"><a href="issue-08.html">Main Article</a>
+<a href="foundation-08.html" aria-current="page">The Foundation</a>
+<a href="financial-syllabus-commodities-alternatives-issue-08.html">The Financial Syllabus</a></nav>
+<div id="foundation"><p><em><strong>Before we dive in, here’s the one thing to know this
+week.</strong></em></p>
+<p>When Bain buys Everllence, it is not writing one large cheque from
+its own bank account. Most of the money is borrowed. This is called a
+<strong>leveraged buyout</strong>, or LBO for short.</p>
+<p>The best way to understand it is through something some of us have
+already done or are hoping to do one day. Buying a home. Almost nobody
+pays for a house in full and upfront in cash. You put down a deposit and
+you borrow the rest from the bank as a mortgage. The house itself acts
+as the collateral for the loan, the bank's way of making sure it gets
+its money back if things go wrong.</p>
+<p>A leveraged buyout works the same way. The buyer uses some of its own
+cash, borrows the rest, and the debt sits with the company being bought
+rather than on the buyer. That borrowed money is the
+<strong><button type="button" class="definition-term" aria-haspopup="dialog" data-definition="Using borrowed money to make a bigger purchase than your own cash alone would allow. It magnifies both the potential gain and the potential loss." data-glossary="leverage">leverage</button></strong>. Leverage simply means using debt to make a
+purchase larger than what your own cash would allow.</p>
+<p>But why would you want to borrow at all, rather than simply buying
+outright?</p>
+<p>Because the return you get is measured against the cash you put in,
+not the full value of what you bought. So even a small rise in value can
+hand you a much bigger gain than you might expect. Think of a deposit on
+an apartment. You put in a fraction of the price, the apartment goes up
+in value, and the profit you make is measured against your deposit, not
+the whole purchase price. The apartment did not double but your money
+did.</p>
+<p>But it works both ways. The loan has to be paid back in full whether
+the company thrives or struggles, and that changes everything. The
+repayments start from day one and cannot wait for the turnaround. If
+things go wrong, the loss comes out of your pocket first. This is why
+<button type="button" class="definition-term" aria-haspopup="dialog" data-definition="Investors who buy companies not listed on the stock market, work to make them more valuable, and sell them on later for a profit." data-glossary="private-equity">private equity</button> firms cannot afford to simply buy a company and wait for
+something good to happen. The pressure to grow is there from the very
+first day.</p>
+<p>With that in mind, everything that follows this week starts to make a
+lot more sense.</p>
+<h2><strong>WHAT ACTUALLY MATTERS THIS WEEK</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>✦ The Signal</strong></th>
+<th></th>
+<th><strong>✦ The Noise</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The main signal is the gap between what Everllence was worth on
+paper and what it actually sold for. The whole unit was carried at about
+€3.4 billion on Volkswagen's books but only 51% of it went for roughly
+€7.4 billion in the deal. That gap is private capital telling us it
+values this business on its future and AI-power potential, not its
+accounting. When a buyer pays this far above <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="What an asset is recorded as being worth in a company's accounts. It can differ enormously from what a buyer will actually pay." data-glossary="book-value">book value</button>, it is making a
+confident bet about tomorrow.</p>
+<p>The other signal is that a deal this large, funded mostly with
+borrowed money, is a sign that the lending markets are open and that big
+investors are confident enough to commit billions. That matters even
+more right now because borrowing is expensive in the higher-for-longer
+rate environment. When a leveraged buyout of this size happens in that
+environment, it suggests the appetite for ambitious, debt-funded bets in
+<button type="button" class="definition-term" aria-haspopup="dialog" data-definition="The part of investing that happens off the public stock exchange, such as buying whole companies or large stakes in them." data-glossary="private-markets">private markets</button> is not going anywhere.</p></td>
+<td></td>
+<td><p>The headline that Volkswagen is cutting costs is not new. We have
+known the group has been reducing its costs for a while now, and it is
+already priced into how the market sees the company. The "Volkswagen is
+in trouble" story misses what is actually happening, which is a company
+making a deliberate and strategic choice about what to keep and what to
+let go.</p>
+<p>The "diesel engines for ships" framing is also a distraction. The
+legacy shipping business is not what makes this deal interesting, and it
+is certainly not what justified the price. The growth story, and the
+€7.4 billion, depend entirely on where Everllence is heading.</p></td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>WHAT’S MOVING IN MARKETS</strong></h2>
+<p><strong>Private markets</strong> are the entire story this week. The
+Volkswagen and Bain deal is one of the biggest European carve-outs of
+the year. A multi-billion-euro business is moving to a new majority
+owner, funded mostly with debt, at a price well above what it was
+recorded as being worth. When deals of this scale go through, they tell
+us that private capital has both the money to spend and the confidence
+to spend it.</p>
+<p><strong>Volkswagen</strong> and <strong>Porsche SE</strong> are the
+equities worth watching. Volkswagen walks away with exactly what it was
+after which is cash, a simpler business, and the freedom to focus
+entirely on cars. Porsche SE, its largest shareholder, backed the rival
+consortium and lost. Volkswagen's own board chose an outside buyer over
+the people who hold the most power in the company.</p>
+<p>The quieter winners are the <strong>companies building AI-power
+infrastructure</strong>. This deal just put a very large and very public
+price tag on generators and energy systems that keep data centres
+running. That matters for how that entire sector gets valued going
+forward.</p>
+<p><strong>Credit markets</strong> are what make a deal like this
+possible. A leveraged buyout only happens if someone is willing to lend
+the money. The fact that lenders are funding a purchase this size, in a
+world where borrowing is expensive, tells us something real. The
+appetite for big, ambitious bets has not gone away. It has just moved
+somewhere most people are not watching.</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 19%">
+<col style="width: 18%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>ASSET</strong></th>
+<th><strong>DIRECTION</strong></th>
+<th><strong>WHY IT MATTERS</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Private markets (the deal)</td>
+<td>↑ Active</td>
+<td>A €7.4bn <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="When a large company sells off one of its divisions as a separate business, as Volkswagen is doing with Everllence." data-glossary="carve-out">carve-out</button> funded with debt shows private capital is
+confident and lenders are open</td>
+</tr>
+<tr class="even">
+<td>Volkswagen</td>
+<td>↑ Supported</td>
+<td>Frees cash and sheds a non-core unit, exactly the result it
+wanted</td>
+</tr>
+<tr class="odd">
+<td>Porsche SE</td>
+<td>↓ On the losing side</td>
+<td>The consortium it backed lost the bid for Everllence</td>
+</tr>
+<tr class="even">
+<td>Credit/leveraged loans</td>
+<td>↑ Open</td>
+<td>Lenders funding a deal this size signal healthy appetite for
+risk</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>CURRENCY &amp; INTEREST RATE</strong></p>
+<p><em><strong>Note:</strong> This week's article does not directly
+cover the currency and rates markets. The view below is informed
+context, with one figure derived from the article's own
+numbers.</em></p>
+<p>The one currency detail this deal hands us is worth pausing on. The
+article tells us €7.4 billion is roughly $8.4 billion. Divide the dollar
+figure by the euro figure and you get about 1.135. That number is the
+euro-to-dollar exchange rate, which is written as EUR/USD. The value
+show many dollars one euro is worth.</p>
+<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mfrac><mrow><mi>E</mi><mi>U</mi><mi>R</mi></mrow><mrow><mi>U</mi><mi>S</mi><mi>D</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>$</mi><mn>8.4</mn><mspace width="0.222em"></mspace><mi>b</mi><mi>i</mi><mi>l</mi><mi>l</mi><mi>i</mi><mi>o</mi><mi>n</mi><mspace width="0.222em"></mspace></mrow><mrow><mi>€</mi><mn>7.4</mn><mspace width="0.222em"></mspace><mi>b</mi><mi>i</mi><mi>l</mi><mi>l</mi><mi>i</mi><mi>o</mi><mi>n</mi></mrow></mfrac><mo>=</mo><mn>1.135</mn></mrow><annotation encoding="application/x-tex">\frac{EUR}{USD} = \frac{\$ 8.4\ billion\ }{€7.4\ billion} = 1.135</annotation></semantics></math></p>
+<p>That is the exchange rate sitting quietly inside the deal's own
+numbers. It is a small detail, but financial announcements often have
+market information hiding in plain sight if you know where to look.</p>
+<p>Beyond that, the broader rate environment matters here as context
+rather than news. Borrowing costs have stayed high across the major
+economies. The fact that Bain committed to a €7.4 billion leveraged deal
+anyway tells you how confident they are about Everllence.</p>
+<h2><strong>HOW IT ALL CONNECTS</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>VW decides Everllence no longer fits and puts it up for sale →
+Bain sees an AI-infrastructure asset worth far more than its book value
+→ outbids everyone, including VW's own shareholders → funds the purchase
+mostly with borrowed money → VW exits with €7.4 billion for 51% and
+keeps a 49% stake in the upside.</em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div><p>What makes this week's story different from an ordinary company sale
+is both who is doing the buying and how they are doing it. This is not
+one carmaker selling a division to another carmaker. It is a public
+industrial giant handing control of part of itself to private capital,
+paying for it largely with debt, at a price set by a growth story rather
+than by what the business earns today. That is private markets in its
+purest form. No public stock exchange, no live ticker, no daily price
+update. Just a deal, a price, and a bet on the future. And that bet got
+funded even with expensive borrowing and cautious public mood.</p>
+<h2><strong>WHY THIS MATTERS TO YOU</strong></h2>
+<p><em><strong>The broader market picture</strong></em></p>
+<p>The message is mixed, but in an interesting way. Public markets have
+been cautious for months, worried about sticky inflation and high
+interest rates. But here, in private markets, a buyer is confident
+enough to commit billions of borrowed money to a long-term bet on the
+future. When those two moods pull in opposite directions, it is worth
+being aware of, because private capital often moves before the rest of
+the market catches on.</p>
+<p><em><strong>For your business or portfolio</strong></em></p>
+<p>This week's story lives in the private markets world, so rather than
+the usual breakdown, here are the two groups of people this deal is most
+directly relevant to.</p>
+<p>If you have a pension or an investment fund, private equity is likely
+already part of it, even if nobody has ever told you that. Many large
+funds allocate a portion of their money to private markets because deals
+like this one can generate returns that public markets do not always
+offer. It may be worth taking a moment to look at what is actually
+inside what you own, and whether you understand it.</p>
+<p>If you own a business, this deal is a reminder that what something is
+worth on paper and what someone would actually pay for it can be two
+very different numbers. Bain paid well above Everllence's book value
+because it believed in the growth story, not the accounting.</p>
+</div>
+<p class="source-note"><a href="issue-08.html#references">Issue 08 references →</a></p>
+</article></main>
+<footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="https://wallstreetforthegirls.com/archive.html">Archive</a>
+      <a href="https://wallstreetforthegirls.com/about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+<dialog class="definition-popup" aria-labelledby="definition-title">
+  <form method="dialog"><button type="submit" aria-label="Close definition">Close ×</button></form>
+  <h2 id="definition-title"></h2>
+  <p class="definition-text"></p>
+  <a class="definition-source" href="glossary.html">Open in glossary →</a>
+</dialog>
+<script src="definitions.js" defer></script>
+</body></html>

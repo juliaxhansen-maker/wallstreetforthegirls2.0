@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Foundation · Issue 10 | Wall Street for the Girls</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+:root { --paper:#FAF7F1; --ink:#22201D; --wine:#4D0E13; --rule:#D8C4AC; }
+* { box-sizing:border-box; }
+.issue-page main { width: 100%; margin-inline: 0; font: 1.13rem/1.65 var(--serif); }
+.issue-page main > article { min-width: 0; overflow-wrap: anywhere; }
+.issue-page article img { max-width: 100%; height: auto !important; }
+.issue-page article math[display="block"] { max-width: 100%; overflow-x: auto; }
+@media (min-width: 681px) {
+  .issue-page main {
+    display: grid;
+    grid-template-columns: minmax(0, 3.25fr) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  }
+}
+article { padding:2rem 0 4rem; }
+.issue-label { color:var(--wine); font:700 .75rem/1.4 system-ui,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+h1 { margin:.25em 0 .15em; font-size:clamp(2.6rem,8vw,5.6rem); line-height:.98; font-weight:400; letter-spacing:-.045em; }
+.deck { font-size:clamp(1.2rem,3vw,1.65rem); line-height:1.35; font-style:italic; }
+.disclaimer { color:#5C574E; font-size:.92rem; }
+h2 { margin:2rem 0 .6rem; padding-top:.6rem; border-top:1px solid var(--rule); color:var(--wine); line-height:1.2; }
+h3 { color:var(--wine); line-height:1.25; }
+article a { color:var(--wine); overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; font: .875rem/1.45 system-ui,sans-serif; }
+th,td { padding:.6rem; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; }
+th { background:#EFE4D7; color:var(--wine); }
+td p,th p { margin:0; }
+
+.definition-term { border: 0; padding: 0; background: none; color: var(--burgundy); font: inherit; font-weight: bold; text-decoration: underline dotted; text-underline-offset: .16em; cursor: pointer; }
+.definition-popup { width: min(90vw, 30rem); border: 1px solid var(--burgundy); background: var(--paper); color: var(--ink); padding: 1.4rem; }
+.definition-popup::backdrop { background: #22201D80; }
+.definition-popup form { text-align: right; }
+.definition-popup button { font: inherit; cursor: pointer; }
+.definition-popup h2 { margin-top: .5rem; }
+.definition-popup a { color: var(--burgundy); }
+
+.issue-nav { display:flex; flex-wrap:wrap; gap:.4rem 1.25rem; padding:.8rem 0; margin:1.4rem 0 2rem; border-block:1px solid var(--rule); font:600 .88rem/1.5 var(--sans); }
+.issue-nav a { padding:0; font:inherit; }
+.issue-nav [aria-current] { font-weight:800; }
+.issue-page article section + section { margin-top:clamp(2.5rem, 5vw, 4.5rem); }
+.issue-page article h3 { margin-top:1.7rem; }
+.issue-page article figure { margin:1.4rem 0; }
+.issue-page article figure img { max-width:100%; height:auto; display:block; }
+.issue-page article .table-wrap { margin-block:1.4rem; }
+.issue-page article td, .issue-page article th { white-space:pre-line; }
+.issue-page .source-note { margin-top:2.5rem; color:#5C574E; font-size:.9rem; }
+</style>
+</head>
+<body class="issue-page">
+  
+ <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+<main><article>
+<p class="issue-label">Issue 10 · July 5th, 2026</p>
+<h1>The Foundation</h1>
+<p class="deck">Nike’s Numbers Got the Facetune Treatment This Week</p>
+<nav class="issue-nav" aria-label="In this issue"><a href="issue-10.html">Main Article</a>
+<a href="foundation-10.html" aria-current="page">The Foundation</a>
+<a href="financial-syllabus-equities-10.html">The Financial Syllabus</a></nav>
+<div id="foundation"><p><em><strong>Before we dive in, here’s the one thing to know this
+week.</strong></em></p>
+<p>We tend to think stock prices react to good or bad news. But they
+actually react to whether that news is better or worse than
+expected.</p>
+<p>Think of trying two different foundations.</p>
+<p>The first is a viral, luxury $90 bottle that beauty creators swear
+will give you a flawless, filter like glow. You put it on, and it looks
+good. Not life changing, but decent. But because you expected a magical,
+pore erasing miracle, you feel completely ripped off.</p>
+<p>The second is a $9 drugstore skin tint you bought in an emergency,
+fully expecting it to look cakey and separate by lunchtime. It ends up
+giving you that exact same decent, everyday coverage but you walk away
+thrilled. You tell everyone you found a new holy grail.</p>
+<p>The physical finish on your skin was identical, but one felt like a
+letdown and the other like a massive win because of the bar that had
+been set.</p>
+<p>Stocks work exactly the same way.</p>
+<p>Every company walks into earnings day with a bar already set for it
+by Wall Street. The share price reacts to whether it clears that bar or
+trips over it, not to the raw numbers themselves. This is why a company
+can announce record profits and watch its stock drop (because the market
+wanted even more). It’s also why a struggling company can post an ugly
+quarter and watch its stock rise (because the market expected something
+worse).</p>
+<p>Once you realize the market trades on expectations rather than
+reality, it changes how you look at everything. Which brings us to
+Nike.</p>
+<p>This week, Nike cleared its bar. It beat what analysts expected, but
+only because of a very flattering filter. And once you understand that a
+“beat” is only ever as honest as the expectations sitting underneath it,
+the next question becomes obvious.</p>
+<p>Was the beat even real, or did they just lower the bar into the
+floor?</p>
+<h2><strong>WHAT ACTUALLY MATTERS THIS WEEK</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>✦ The Signal</strong></th>
+<th></th>
+<th><strong>✦ The Noise</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The real signal is not that Nike beat, it’s <em>how</em> it beat.
+The headline profit of 72 cents was inflated by a <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="A gain or cost that will not repeat, like a tax refund or a legal settlement" data-glossary="one-off">one-off</button> tariff refund
+of nearly $986 million, which alone added 52 of those 72 cents.</p>
+<p>The second signal is that China is still the core problem. A 12% drop
+in Greater China sales is the blemish no refund could cover and
+sell-through in sportswear and Jordan streetwear remains challenged.</p>
+<p>The third is Nike's running business grew double digits for a fifth
+straight quarter with football riding a World Cup tailwind. That is a
+real turnaround starting to show up in the numbers, even if it is far
+from complete.</p></td>
+<td></td>
+<td><p>The plain "Nike beats expectations" headline on its own is the
+noise. Without the context of the tariff one-off and the weak sales in
+China, it makes the quarter sound stronger than it was.</p>
+<p>The single day share move is noise too. The stock dropped as much as
+8% right after the release and then recovered most of it back, so that
+reaction told us very little about what the quarter actually
+meant.</p></td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>WHAT’S MOVING IN MARKETS</strong></h2>
+<p><em><strong>Note:</strong> This week's story is a single company
+earnings report and does not cover the broad market, interest rates, FX,
+or commodities with live data. The focus below is on the equity in
+question and its sector. The one macro thread the article itself raises,
+tariffs and currency effects, is included as informed context rather
+than new market data.</em></p>
+<p><strong>Nike (NKE)</strong> is the entire story this week. Shares
+initially dropped as much as 8% after the release as investors looked
+past a tariff related one-off. However, the stock recovered most of
+those losses as investors weighed the reality of a company already
+sitting at its lowest level in more than a decade.</p>
+<p>The <strong>consumer and retail sector</strong> looks to Nike as the
+ultimate cue for consumer sentiment. When the biggest name in sportswear
+has to fight this hard for growth, it flashes a caution light for the
+whole sector, hinting that <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="The money people spend on wants rather than needs" data-glossary="discretionary-spending">discretionary spending</button> is under pressure.</p>
+<p><strong>Nike Direct versus wholesale</strong> is one of the most
+interesting splits. Wholesale, which means selling through other
+retailers, rose 4% to $6.6 billion. Nike Direct however, which is its
+own stores and apps, fell 7% to $4.1 billion. After years of pushing
+people to buy straight from Nike, the company is moving back toward its
+retail partners and the numbers this quarter reflect that shift.</p>
+<p>Nike earns money all over the world but reports it in
+<strong>dollars</strong>. Exchange rate swings impact its reported
+numbers before it sells a single extra pair of trainers. This year
+currency actually worked slightly in Nike’s favour. Full year revenue
+was flat as reported but down 2% on a currency-neutral basis, which
+strips exchange rate effects out. In other words, a favourable currency
+move made the headline look a touch better than the underlying trend
+really was.</p>
+<p><strong>Tariffs</strong> cut both ways for Nike right now. The $986
+million refund is a one-off recovery of import duties Nike had already
+paid, and it is what made this quarter’s profit look so good. But
+tariffs are also a real ongoing cost. Nike still makes a meaningful
+share of the footwear it sells in the US in China, around 16% of its US
+footwear imports, which leaves it exposed. On the earnings call,
+management said tariffs remain an ongoing cost headwind but its own
+mitigation, shifting production out of China, raising some prices and
+cutting costs, should outweigh that drag. Nike now expects <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="The share of revenue left after the direct cost of making a product. A core read on profitability" data-glossary="gross-margin">gross margin</button>
+to start expanding as early as the first quarter of its next fiscal
+year. The one-off cash boost flatters today but the ongoing tariff
+picture, and how well Nike offsets it, is the part that shapes next
+year.</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 19%">
+<col style="width: 18%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>ASSET</strong></th>
+<th><strong>DIRECTION</strong></th>
+<th><strong>WHY IT MATTERS</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nike (NKE)</td>
+<td>↓</td>
+<td>Fell on China weakness, compounding a decade plus low</td>
+</tr>
+<tr class="even">
+<td>Consumer &amp; retail sector</td>
+<td>↔︎</td>
+<td>Nike is a cue for consumer sentiment, the soft demand suggests
+cautious discretionary spending</td>
+</tr>
+<tr class="odd">
+<td>Nike Direct vs Wholesale</td>
+<td>mixed</td>
+<td>Wholesale up 4%, Direct down 7%, showing a strategy shift back
+toward retail partners</td>
+</tr>
+<tr class="even">
+<td>USD effect on revenue</td>
+<td>context</td>
+<td>Currency was a mild tailwind: revenue flat as reported vs down 2%
+currency-neutral, so FX flattered the headline</td>
+</tr>
+<tr class="odd">
+<td>Tariffs</td>
+<td>context</td>
+<td>A one-off $986m refund flattered the quarter but tariffs are an
+ongoing cost</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>CURRENCY &amp; INTEREST RATE</strong></p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Where the dollar sits in the story</strong></th>
+<th></th>
+<th><strong>The trade policy picture</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The <strong>dollar</strong> subtly shapes Nike's numbers. As a
+company that sells worldwide but reports in dollars, Nike sees the value
+of its overseas sales rise or fall purely on where the dollar goes
+before a single extra pair of trainers is sold.</p>
+<p><strong>Currency-neutral</strong> tells the cleaner story. Full-year
+revenue was flat as reported but down 2% once currency effects are
+stripped out. That gap means currency was a mild tailwind this year,
+flattering the headline. This means that the currency-neutral figure
+reveals a slightly softer underlying trend than the reported number
+suggests.</p></td>
+<td></td>
+<td><p><strong>Tariffs are the real policy story here.</strong> The $986
+million refund relates to import duties Nike had paid making this
+quarter’s result a direct result of US trade policy rather than
+sales.</p>
+<p><strong>Supply chain exposure is the vulnerability.</strong> Around
+16% of the footwear Nike imports into the US is made there, which makes
+tariffs an ongoing cost, one that management plans to offset through
+pricing and by shifting where it makes things.</p></td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>HOW IT ALL CONNECTS</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Nike posts a headline beat by a one-off tariff refund →
+underlying earnings are smaller and China sales still fall 12% → the
+market looks past the headline to the weak core → shares fall as much as
+8% before recovering → analysts stay neutral and are waiting for proof
+the turnaround is real</em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div><p>What makes this week different from an ordinary "good quarter" is
+that the cause of the good news and the health of the business no longer
+line up. The headline profit jumped, but the thing that made it jump, a
+tariff refund, has nothing to do with whether Nike is actually selling
+more. In a simpler world, a profit beat would be straightforwardly good
+news.</p>
+<p>Underneath the accounting, the real story is that this company is
+stuck right in the middle of a messy turnaround. On one hand, there are
+genuine signs of hope. Their running and football lines are selling
+great and North American sales are holding steady. But on the other
+hand, their main revenue source is still struggling, sales in China are
+falling and management won't give full year <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="A company's own forecast for its future results" data-glossary="guidance">guidance</button> until its
+restructuring is further along. That’s why everyone is acting cautious
+instead of celebrating. Nobody actually knows if the good news will
+outweigh the bad. Investors are essentially being told to wait and
+see.</p>
+<h2><strong>WHY THIS MATTERS TO YOU</strong></h2>
+<p><em><strong>The broader market picture</strong></em></p>
+<p>Companies present their results the way we all present ourselves
+online, leading with the most flattering version and trusting that most
+people will not check the fine print. A "beat," a "record," a number
+that clears the bar, none of these mean much until you know what is
+holding them up. Learning to ask that question is what separates reading
+a headline from understanding it. And because Nike provides a hint for
+how shoppers everywhere are feeling, its struggle is also a signal that
+the global consumer is being careful right now.</p>
+<p>This week's story lives inside a single company rather than across
+the whole market, so instead of our usual breakdown by importer,
+exporter, borrower and investor, here are the groups this one maybe
+useful for.</p>
+<p><em><strong>If you are building your financial
+literacy</strong></em></p>
+<p>A flattering number and a healthy business are not always the same
+thing. The most useful habit you can build is to look for the one-off
+item that made a quarter look better or worse than the underlying
+reality. That single question works on every company you will ever look
+at, which makes this week less about Nike and more about a skill.</p>
+<p><em><strong>If you follow the brands you love</strong></em></p>
+<p>This is a reminder that the company behind the logo gets judged on
+very different things than the product on the shelf. The next time a
+favourite brand announces "record" or "better than expected" numbers,
+you will know to ask what is really driving them, and whether the glow
+is real.</p>
+<p><em><strong>If you run a business</strong></em></p>
+<p>The tariff thread may be closer to home than you may think it is.
+Nike's near $1 billion tariff cost is a reminder that trade policy can
+significantly impact an entire year's numbers, for better or worse,
+entirely separately from how well the actual business is doing.
+Understanding how exposed a supply chain is worth the time.</p>
+</div>
+<p class="source-note"><a href="issue-10.html#references">Issue 10 references →</a></p>
+</article></main>
+<footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="https://wallstreetforthegirls.com/archive.html">Archive</a>
+      <a href="https://wallstreetforthegirls.com/about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+<dialog class="definition-popup" aria-labelledby="definition-title">
+  <form method="dialog"><button type="submit" aria-label="Close definition">Close ×</button></form>
+  <h2 id="definition-title"></h2>
+  <p class="definition-text"></p>
+  <a class="definition-source" href="glossary.html">Open in glossary →</a>
+</dialog>
+<script src="definitions.js" defer></script>
+</body></html>

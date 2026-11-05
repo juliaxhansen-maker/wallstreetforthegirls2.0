@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Foundation · Issue 13 | Wall Street for the Girls</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+:root { --paper:#FAF7F1; --ink:#22201D; --wine:#4D0E13; --rule:#D8C4AC; }
+* { box-sizing:border-box; }
+.issue-page main { width: 100%; margin-inline: 0; font: 1.13rem/1.65 var(--serif); }
+.issue-page main > article { min-width: 0; overflow-wrap: anywhere; }
+.issue-page article img { max-width: 100%; height: auto !important; }
+.issue-page article math[display="block"] { max-width: 100%; overflow-x: auto; }
+@media (min-width: 681px) {
+  .issue-page main {
+    display: grid;
+    grid-template-columns: minmax(0, 3.25fr) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  }
+}
+article { padding:2rem 0 4rem; }
+.issue-label { color:var(--wine); font:700 .75rem/1.4 system-ui,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+h1 { margin:.25em 0 .15em; font-size:clamp(2.6rem,8vw,5.6rem); line-height:.98; font-weight:400; letter-spacing:-.045em; }
+.deck { font-size:clamp(1.2rem,3vw,1.65rem); line-height:1.35; font-style:italic; }
+.disclaimer { color:#5C574E; font-size:.92rem; }
+h2 { margin:2rem 0 .6rem; padding-top:.6rem; border-top:1px solid var(--rule); color:var(--wine); line-height:1.2; }
+h3 { color:var(--wine); line-height:1.25; }
+article a { color:var(--wine); overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; font: .875rem/1.45 system-ui,sans-serif; }
+th,td { padding:.6rem; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; }
+th { background:#EFE4D7; color:var(--wine); }
+td p,th p { margin:0; }
+
+.definition-term { border: 0; padding: 0; background: none; color: var(--burgundy); font: inherit; font-weight: bold; text-decoration: underline dotted; text-underline-offset: .16em; cursor: pointer; }
+.definition-popup { width: min(90vw, 30rem); border: 1px solid var(--burgundy); background: var(--paper); color: var(--ink); padding: 1.4rem; }
+.definition-popup::backdrop { background: #22201D80; }
+.definition-popup form { text-align: right; }
+.definition-popup button { font: inherit; cursor: pointer; }
+.definition-popup h2 { margin-top: .5rem; }
+.definition-popup a { color: var(--burgundy); }
+
+.issue-nav { display:flex; flex-wrap:wrap; gap:.4rem 1.25rem; padding:.8rem 0; margin:1.4rem 0 2rem; border-block:1px solid var(--rule); font:600 .88rem/1.5 var(--sans); }
+.issue-nav a { padding:0; font:inherit; }
+.issue-nav [aria-current] { font-weight:800; }
+.issue-page article section + section { margin-top:clamp(2.5rem, 5vw, 4.5rem); }
+.issue-page article h3 { margin-top:1.7rem; }
+.issue-page article figure { margin:1.4rem 0; }
+.issue-page article figure img { max-width:100%; height:auto; display:block; }
+.issue-page article .table-wrap { margin-block:1.4rem; }
+.issue-page article td, .issue-page article th { white-space:pre-line; }
+.issue-page .source-note { margin-top:2.5rem; color:#5C574E; font-size:.9rem; }
+</style>
+</head>
+<body class="issue-page">
+  
+ <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+<main><article>
+<p class="issue-label">Issue 13 · July 26th, 2026</p>
+<h1>The Foundation</h1>
+<p class="deck">The Free Trial Is Over, and the Subscription Renewed Itself.</p>
+<nav class="issue-nav" aria-label="In this issue"><a href="issue-13.html">Main Article</a>
+<a href="foundation-13.html" aria-current="page">The Foundation</a>
+<a href="financial-syllabus-equities-13.html">The Financial Syllabus</a></nav>
+<div id="foundation"><p><em><strong>Before we dive in, here’s the one thing to know this
+week.</strong></em></p>
+<p>You know the feeling of ordering something from a store abroad. The
+dress, the skincare, the thing that was not available at home. It ships,
+you track it obsessively, and then it arrives at your door, and the
+courier won't hand it over until a charge is paid. Not by the shop that
+sent it, but by you. Standing in your own hallway, paying your own
+country's government before you are allowed to even hold the thing you
+already bought. That small, annoying moment is the entire mechanics of a
+<button type="button" class="definition-term" aria-haspopup="dialog" data-definition="A tax a country charges on goods coming in from abroad. Paid by the company importing them, not by the exporting country." data-glossary="tariff">tariff</button>.</p>
+<p>When most of us hear that one country has put tariffs on another, we
+picture the foreign country paying a fee to sell into our market. It
+feels intuitive. They want in, so they pay an entrance fee at the
+door.</p>
+<p>But in reality, it is not how it works, and that is important to
+remember. US customs rules are unusually blunt about this. The duty on
+imported goods is a personal debt owed by the importer to the US
+government. So when a shipment of shoes made overseas lands at a US
+port, the American company that ordered them is the one that pays,
+before a single pair reaches a shelf. The foreign factory doesn't write
+that check. The importer does.</p>
+<p>You might wonder why a government would want to charge this at all.
+Tariffs usually serve two purposes. The first is simple, they raise
+money, every dollar collected at the border becomes government revenue,
+the same as any other tax. The second is protection. Making imported
+goods pricier encourages shoppers toward the domestically made version
+instead. This in theory should protect local jobs and local industries
+from cheaper competition abroad.</p>
+<p>But nothing here is free, and economists have a name for that. It's
+called opportunity cost, the idea that choosing one thing always means
+giving up something else you could have had instead. Protecting a
+domestic industry has real value, but it comes with a real cost too. The
+cheaper prices and wider choices everyone else gives up in exchange.
+Whether that protection is worth what shoppers pay for it is exactly the
+kind of trade-off that is still debated today.</p>
+<p>Now think about what the importing company does next, because this is
+where the tariff starts making its way toward you. It has two obvious
+options, and in real life it does a little of each. It can absorb the
+cost, keeping prices the same and accepting a smaller profit on every
+pair it sells. Or it can pass the cost on, nudging the price on the
+shelf up so that you, the shopper at the cashier, covers it. The second
+option is what's called <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="What a company does with a new cost like a tariff, either absorbing it into smaller profit or passing it to customers as a higher price." data-glossary="cost-pass-through">cost pass-through</button> in finance. It's the process
+of handing a new cost like a tariff along to the customer rather than
+absorbing it.</p>
+<p>There is a third possibility, and it's one many people don't think of
+right away or forget entirely. It's the one that's true, at least
+sometimes, about the claim that foreign countries pay tariffs. A big
+enough importer can pressure its overseas supplier to cut its price
+instead, which means some of the cost genuinely does land abroad. So the
+third option is real, but it's the exception, not the rule.</p>
+<p>Economists at the Federal Reserve Bank of New York studied last
+year's US tariffs and found that nearly 90% of the economic burden fell
+on American firms and consumers rather than foreign exporters.
+Economists call that split <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="Who actually ends up worse off once a tariff is paid, which can be the importing company, its customers, or the foreign supplier." data-glossary="tariff-incidence">tariff incidence</button>, meaning who ends up
+genuinely worse off once the tariff is paid.</p>
+<p>Here's the real question this sets up. It's not how big the tariff
+is, but who actually pays it. Is it the company? Or is it you? And now
+that this cost renews itself rather than expiring, the question is
+whether the importing company can afford to keep absorbing it at
+all.</p>
+<h2><strong>WHAT ACTUALLY MATTERS THIS WEEK</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>✦ The Signal</strong></th>
+<th></th>
+<th><strong>✦ The Noise</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>The real news isn't the size of the tariff. It's what it's built
+on. Section 122 stops dead after 150 days unless Congress acts. Section
+301 doesn't stop on its own either. It runs for four years, then renews
+on request, indefinitely, with no cap on the rate.</p>
+<p>And this is a floor, not a ceiling. An investigation into <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="When an industry can produce much more than what is demanded, usually because governments have subsidized the building of factories. The surplus gets exported cheaply, which competitors argue unfairly prices out their own producers." data-glossary="excess-structural-capacity">excess
+structural capacity</button>, covering China, the EU, and 16 others, is expected
+to finish within months and push rates back toward where they were
+before February's ruling. Add the new threats of 50% on Canadian goods
+and 100% on generic drugs from 2028, and the direction is
+clear.</p></td>
+<td></td>
+<td>The day one price shock is noise. Rates barely moved, up a point or
+two from 11.8%. Which country landed at 10% versus 12.5%, or India's
+move down for what the White House called progress on forced labor, is
+worth a glance, but it’s not the story. The forced labor framing
+explains the legal route. The cost structure underneath is what actually
+impacts markets and you.</td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>WHAT’S MOVING IN MARKETS</strong></h2>
+<p><em><strong>Note:</strong> This week's article is a trade policy
+story and the view below is informed context.</em></p>
+<p><strong>Import heavy shares</strong> carry the pressure this week.
+The companies most exposed are the ones whose whole business depends on
+bringing physical goods across a border. Now that the tariff renews
+rather than expires, the trade-off between smaller profits and higher
+prices stops being a one off decision and becomes a permanent condition
+of doing business. The companies that feel it the most are the ones
+selling wants rather than needs, known as <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="The part of the economy selling wants rather than need. Most sensitive to higher prices because consumers can simply choose not to buy." data-glossary="consumer-discretionary">consumer discretionary</button>,
+because when they raise prices consumers can decide whether they wait
+for the purchase.</p>
+<p><strong>Domestic and services businesses</strong> are not as heavily
+impacted. A company that makes and sells inside the country, or sells a
+service rather than a shippable object, has very little imported cost to
+be taxed on. The same headline that hurts an import-reliant retailer
+barely affects a domestic software firm. That split, between companies
+that are exposed and companies that aren't, is why the stock market
+doesn't move as one block this week. It sorts winners from losers
+instead.</p>
+<p><strong>Bond yields</strong> face a mild upward tilt. Tariffs raise
+the price of imported goods, which is <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="Something that pushes the general level of prices up. A tariff is inflationary because it raises the cost of imported goods." data-glossary="inflationary">inflationary</button>, and more of that
+increase is still working its way through. Federal Reserve Bank of New
+York research this month found that nearly half of firms that have
+already paid tariffs still plan further price increases. That matters
+because it points to sticky inflation, meaning price increases that stay
+in place rather than moving back down on their own. When inflation looks
+sticky like that, central banks have less room to cut interest rates.
+And when rates stay higher for longer, the yield tends to run a little
+higher too.</p>
+<p>The <strong>dollar</strong> is a mixed story. Two forces pull against
+each other. Tariffs reduce imports and argue for keeping US rates higher
+for longer, both of which support the dollar. But an openly
+unpredictable tariff policy, and the risk that other countries impose
+their own duties, pull the other way.</p>
+<p><strong>Energy</strong> avoided the tariffs. Oil and natural gas were
+excluded to avoid economic turmoil, meaning a sudden jump in fuel,
+heating, and transport costs that would ripple through prices everywhere
+else. The single input that impacts the price of almost everything else,
+from the delivery van to the factory to the flight, was protected on
+purpose.</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 19%">
+<col style="width: 18%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>ASSET</strong></th>
+<th><strong>DIRECTION</strong></th>
+<th><strong>WHY IT MATTERS</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Import heavy equities</td>
+<td>↓</td>
+<td>They pay the tariff directly, and the cost now renews rather than
+expires</td>
+</tr>
+<tr class="even">
+<td>Domestic/services equities</td>
+<td>↔︎</td>
+<td>Little import cost to consider</td>
+</tr>
+<tr class="odd">
+<td>US Bond Yields</td>
+<td>↑ Mild</td>
+<td>Tariffs are inflationary, which gives the central bank less room to
+cut</td>
+</tr>
+<tr class="even">
+<td>US Dollar</td>
+<td>↔︎</td>
+<td>Higher-for-longer rates support it, unpredictability and retaliation
+weigh on it</td>
+</tr>
+<tr class="odd">
+<td>Oil &amp; natural gas</td>
+<td>↔︎</td>
+<td>Deliberately exempt to avoid adding consumer inflation</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>CURRENCY &amp; INTEREST RATE</strong></p>
+<p><em><strong>Note:</strong> This week's article does not cover
+currencies or interest rates. The analysis below is informed context,
+built around the main reference article’s own numbers.</em></p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Where currencies stand</strong></th>
+<th></th>
+<th><strong>The rates picture</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong>USD:</strong> Mixed. There are two forces mentioned in
+the previous section pulling in opposite ways.</p>
+<p><strong>EUR/USD:</strong> Weaker bias. For anyone whose costs are in
+euros, the direct tariff impact is on the softer side. But the indirect
+impact of a cautious Fed on cutting rates tends to favor the dollar over
+the euro.</p>
+<p><strong>EM FX:</strong> Under pressure. Countries whose economies
+rely heavily on exporting goods into the US now face a permanent cost to
+entry and currencies tend to reflect that over time rather than
+overnight.</p></td>
+<td></td>
+<td><p><strong>Fed:</strong> Faces a version of this problem it can’t
+easily fix. Tariffs push goods prices up, and rate cuts can't undo that.
+Cutting into tariff-driven inflation risks making it permanent, so the
+more likely path is fewer cuts, not more.</p>
+<p><strong>ECB &amp; BOE:</strong> Neither sets US trade policy, but
+both absorb it through a stronger dollar and slower global trade since
+it has become more expensive to access the US market. The EU's 10% band
+is the softer outcome here, so this is more a growth problem than a
+price one.</p>
+<p><strong>Yield curve:</strong> Short-dated yields stay supported as
+rate cuts get delayed. Longer-dated yields are pulled between sticky
+inflation on one side and slower growth on the other.</p></td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>HOW IT ALL CONNECTS</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>Temporary tariffs get replaced by ones that renew themselves →
+import costs rise and stay elevated → companies absorb the cost, so
+margins shrink, or pass it on, so prices rise → inflation stays sticky →
+central banks keep rates higher for longer</em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div><p>What makes this week different is what makes it easy to
+underestimate. No crash, no crisis, no single terrible day to point at.
+The rate barely moved. A cost everyone had been treating as temporary
+just became one that renews on its own, with more scheduled to arrive.
+That kind of shift is harder to notice than a market crash and often
+more important long-term.</p>
+<p>The reason it is so hard to fix is that a tariff is a supply-side
+problem, and the tools built to fight inflation were never designed for
+that kind of problem. A central bank has one main tool, interest rates,
+and that tool works by cooling demand, meaning how much people and
+businesses want to spend. It's effective at calming an economy running
+too hot, where too much money chases too few goods. It does almost
+nothing about a tariff. A tariff doesn't make anyone want to buy more,
+it makes imported things cost more to bring in. So, a central bank can
+raise or lower rates as many times as it likes, and it still can't undo
+the tax already sitting on a shipment at the border. That mismatch,
+between what's actually causing the problem and what the available tools
+can fix, is why this shows up in your borrowing costs and investments
+all at once, and why no single institution can simply make it go
+away.</p>
+<h2><strong>WHY THIS MATTERS TO YOU</strong></h2>
+<p><em><strong>The broader market picture</strong></em></p>
+<p>This week doesn't have an immediate, direct impact but it's worth
+understanding anyway. The most important financial shifts are usually
+not the dramatic ones. They're the ones that happen without anyone
+noticing at the time. This week, the price of importing almost
+everything into the United States stopped being temporary and became a
+permanent feature, with more already scheduled. You won't feel it as a
+sudden jump in prices, but you may feel it slowly, as things start to
+cost a little more each time and stay that way. The value this week
+isn't in reacting. It's in noticing something while it's still
+happening.</p>
+<p>Here is what it means a little closer to home.</p>
+<p><em><strong>If you are building your financial
+literacy</strong></em></p>
+<p>When you read that a tariff, or honestly any cost, has taken effect,
+the useful instinct is to ask two questions in sequence. Who actually
+pays this, and does it expire or does it renew? Those two questions turn
+a vague, alarming headline into something you genuinely understand.</p>
+<p><em><strong>If this connects to your work or
+portfolio</strong></em></p>
+<ul>
+<li><p>If you are an <strong>importer</strong>, meaning your costs
+depend on goods bought abroad, the question shifts from when these
+tariffs end to how exposed you are if they don't. The exemptions are
+real but uneven. Energy is exempt, goods covered by the <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="The United States-Mexico-Canada Agreement, a regional trade deal. Goods it covers are largely exempt from these new tariffs." data-glossary="usmca">USMCA</button> stay
+largely tariff free, and steel and aluminum are taxed under their own
+separate rules.</p></li>
+<li><p>If you are an <strong>exporter</strong>, meaning you earn by
+selling abroad, the direct hit from US import duties is smaller. As a
+general matter, the risk worth watching is retaliation, other countries
+taxing US goods in return, which can turn into a wider trade
+war.</p></li>
+<li><p>If you are a <strong>borrower</strong> with <strong>floating-rate
+debt</strong>, meaning a rate that moves with the market, the impact is
+indirect. Tariffs keep inflation firm, which keeps central banks
+cautious about cutting, which keeps borrowing costs elevated
+longer.</p></li>
+<li><p>If you are an <strong>investor</strong>, you may be more tariff
+exposed than you realize, depending on how import reliant the companies
+you actually own are. Retail and electronics carry it directly. Domestic
+and services businesses barely notice it.</p></li>
+</ul>
+</div>
+<p class="source-note"><a href="issue-13.html#references">Issue 13 references →</a></p>
+</article></main>
+<footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="https://wallstreetforthegirls.com/archive.html">Archive</a>
+      <a href="https://wallstreetforthegirls.com/about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+<dialog class="definition-popup" aria-labelledby="definition-title">
+  <form method="dialog"><button type="submit" aria-label="Close definition">Close ×</button></form>
+  <h2 id="definition-title"></h2>
+  <p class="definition-text"></p>
+  <a class="definition-source" href="glossary.html">Open in glossary →</a>
+</dialog>
+<script src="definitions.js" defer></script>
+</body></html>

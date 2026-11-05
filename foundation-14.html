@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Foundation · Issue 14 | Wall Street for the Girls</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+:root { --paper:#FAF7F1; --ink:#22201D; --wine:#4D0E13; --rule:#D8C4AC; }
+* { box-sizing:border-box; }
+.issue-page main { width: 100%; margin-inline: 0; font: 1.13rem/1.65 var(--serif); }
+.issue-page main > article { min-width: 0; overflow-wrap: anywhere; }
+.issue-page article img { max-width: 100%; height: auto !important; }
+.issue-page article math[display="block"] { max-width: 100%; overflow-x: auto; }
+@media (min-width: 681px) {
+  .issue-page main {
+    display: grid;
+    grid-template-columns: minmax(0, 3.25fr) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  }
+}
+article { padding:2rem 0 4rem; }
+.issue-label { color:var(--wine); font:700 .75rem/1.4 system-ui,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+h1 { margin:.25em 0 .15em; font-size:clamp(2.6rem,8vw,5.6rem); line-height:.98; font-weight:400; letter-spacing:-.045em; }
+.deck { font-size:clamp(1.2rem,3vw,1.65rem); line-height:1.35; font-style:italic; }
+.disclaimer { color:#5C574E; font-size:.92rem; }
+h2 { margin:2rem 0 .6rem; padding-top:.6rem; border-top:1px solid var(--rule); color:var(--wine); line-height:1.2; }
+h3 { color:var(--wine); line-height:1.25; }
+article a { color:var(--wine); overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; font: .875rem/1.45 system-ui,sans-serif; }
+th,td { padding:.6rem; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; }
+th { background:#EFE4D7; color:var(--wine); }
+td p,th p { margin:0; }
+
+.definition-term { border: 0; padding: 0; background: none; color: var(--burgundy); font: inherit; font-weight: bold; text-decoration: underline dotted; text-underline-offset: .16em; cursor: pointer; }
+.definition-popup { width: min(90vw, 30rem); border: 1px solid var(--burgundy); background: var(--paper); color: var(--ink); padding: 1.4rem; }
+.definition-popup::backdrop { background: #22201D80; }
+.definition-popup form { text-align: right; }
+.definition-popup button { font: inherit; cursor: pointer; }
+.definition-popup h2 { margin-top: .5rem; }
+.definition-popup a { color: var(--burgundy); }
+
+.issue-nav { display:flex; flex-wrap:wrap; gap:.4rem 1.25rem; padding:.8rem 0; margin:1.4rem 0 2rem; border-block:1px solid var(--rule); font:600 .88rem/1.5 var(--sans); }
+.issue-nav a { padding:0; font:inherit; }
+.issue-nav [aria-current] { font-weight:800; }
+.issue-page article section + section { margin-top:clamp(2.5rem, 5vw, 4.5rem); }
+.issue-page article h3 { margin-top:1.7rem; }
+.issue-page article figure { margin:1.4rem 0; }
+.issue-page article figure img { max-width:100%; height:auto; display:block; }
+.issue-page article .table-wrap { margin-block:1.4rem; }
+.issue-page article td, .issue-page article th { white-space:pre-line; }
+.issue-page .source-note { margin-top:2.5rem; color:#5C574E; font-size:.9rem; }
+</style>
+</head>
+<body class="issue-page">
+  
+ <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+<main><article>
+<p class="issue-label">Issue 14 · August 2nd, 2026</p>
+<h1>The Foundation</h1>
+<p class="deck">Nobody Wanted It Until the Right Person Wore It</p>
+<nav class="issue-nav" aria-label="In this issue"><a href="issue-14.html">Main Article</a>
+<a href="foundation-14.html" aria-current="page">The Foundation</a>
+<a href="financial-syllabus-foreign-exchange-issue-14.html">The Financial Syllabus</a></nav>
+<div id="foundation"><p><em><strong>Before we dive in, here’s the one thing to know this
+week.</strong></em></p>
+<p>Imagine a shop that prints its own gift cards. It can make as many as
+it wants, whenever it wants, for essentially nothing. Nobody can stop
+it, and it never runs out of the ability to do it.</p>
+<p>Now imagine that shop wants to buy its gift cards back off customers.
+Suddenly the situation is completely different. It cannot pay with gift
+cards, because that is the thing it is trying to collect. It has to pay
+with real money out of the till. And the till, unlike the printer, has a
+bottom.</p>
+<p>That asymmetry is the idea in this week's story and it applies to
+every country on earth. A country can push its own currency down
+forever, because it can create it. Although flooding the world with your
+own money brings its own problems, which is a story for another
+issue.</p>
+<p>But to push a currency <strong>up,</strong> a country has to buy it
+back using their <strong><button type="button" class="definition-term" aria-haspopup="dialog" data-definition="The foreign currencies and assets a country holds so it can pay for imports and defend its own currency" data-glossary="foreign-exchange-reserves">foreign exchange reserves</button></strong>. These
+reserves are the foreign currencies and assets a country holds so it can
+pay for imports and defend its own currency when things get difficult.
+Reserves are enormous but they are also finite which means everyone
+watching can see roughly how large they are. So, a currency defence is
+not a show of unlimited strength. It is a budget being spent in
+public.</p>
+<h2><strong>WHAT ACTUALLY MATTERS THIS WEEK</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>✦ The Signal</strong></th>
+<th></th>
+<th><strong>✦ The Noise</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>For the first time in more than a decade the US has entered the
+yen market. Kyodo News reported on Saturday that Japan and the US may
+unveil a policy on the yen’s weakness as early as next week, aimed at
+warning off speculative bets.</p>
+<p>Japan has carried this defence largely by itself, spending a record
+11.7 trillion yen across April and May and watching the currency reach a
+near 40 year low. Japan's reserves fell by $77,107 million in May alone,
+and the finance ministry has publicly reassured markets that it still
+has tools available, including possible access to a Federal Reserve
+facility.</p>
+<p>The Bank of Japan's decision to hold rates at 1% was also expected.
+What mattered was the vote itself, 8 to 1, with Hajime Takata pushing
+for a hike to 1.25% and warning that core inflation will run clearly
+above 2%.</p></td>
+<td></td>
+<td>Thursday was the bigger single day move for the yen, and Japan was
+reportedly buying again on Friday, so the two days should not be read as
+a clean comparison.</td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>WHAT’S MOVING IN MARKETS</strong></h2>
+<p><em><strong>Note:</strong> This week's article covers the
+intervention itself and publishes only the yen's move. The policy rates
+and reserve figures below are published data from the institutions
+themselves, dated where they appear. Everything beyond those is informed
+context built around the article's direction of travel, not live figures
+from the source.</em></p>
+<p>The <strong>yen</strong> moved to about 157.6 to the dollar late on
+Friday from about 158.9 earlier that afternoon, after reaching 163.99 in
+late July. What matters is not the size of the move but its cause. This
+is a price being held up by governments rather than found by buyers and
+sellers, and the two behave differently.</p>
+<p>The Federal Reserve held its <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="Some central banks set a band rather than a single number." data-glossary="target-range">target range</button> at 3.50%–3.75% on 29 July,
+but the vote passed 9 to 3. That is the magnet, and the argument inside
+the Fed is about making it stronger, not weaker. The Bank of Japan
+raised its rate to 1% in June, its highest in around three decades, and
+held it there in July. It is a real change after years near 0. It is
+also still far beneath what American money earns, which is why the pull
+continues.</p>
+<p><strong>Reserves</strong> are the resource everyone is
+watching<strong>.</strong> Japan held $1,305,874 million at the end of
+May, after a fall of $77,107 million in that single month, and reserves
+fell again in June to about $1.287 trillion. This is the number that
+determines how long Japan can independently defend its currency.</p>
+<p>Japan imports almost all of its <strong>energy</strong> and pays for
+it in dollars, so every rise in global energy prices means more yen sold
+to buy the dollars needed to settle the bill. It is a quiet, constant,
+downward push that no intervention can address.</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 19%">
+<col style="width: 18%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>ASSET</strong></th>
+<th><strong>DIRECTION</strong></th>
+<th><strong>WHY IT MATTERS</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Japanese yen</td>
+<td>↑</td>
+<td>Reported US and Japanese buying, from 163.99 in late July</td>
+</tr>
+<tr class="even">
+<td>US policy rate</td>
+<td>↔︎ 3.50–3.75%</td>
+<td>Held on July 29<sup>th</sup> but three of twelve votes were to raise
+it</td>
+</tr>
+<tr class="odd">
+<td>Japan policy rate</td>
+<td>↔︎ 1%</td>
+<td>Raised in June to roughly three decade high, held in July</td>
+</tr>
+<tr class="even">
+<td>Japan’s reserves</td>
+<td>↓ $1,305,874m</td>
+<td>Fell $77,107m in May alone, the month of a record intervention</td>
+</tr>
+<tr class="odd">
+<td>Energy</td>
+<td>↔︎ elevated</td>
+<td>Japan buys energy in dollars, a permanent source of yen selling</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>CURRENCY &amp; INTEREST RATE</strong></p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Where currencies stand beyond the Yen</strong></th>
+<th></th>
+<th><strong>The rate gap picture, across three horizons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong>USD:</strong> Pulled two ways at once. High American
+interest rates, and an argument inside the Fed for higher ones still,
+support it. But a US government buying another country's currency is
+acting to push the dollar down against that currency. Those two forces
+do not usually appear in the same week.</p>
+<p><strong>EUR:</strong> The supporting character this week. When the
+New York Fed bought yen on the Treasury's behalf, it paid in euros
+rather than dollars, routing the trade through Goldman Sachs and Morgan
+Stanley. The Treasury's fund holds foreign currencies alongside dollars,
+so it had euros to spend. Nothing in the reporting explains why euros
+rather than something else. What it does tell you is that the operation
+was funded from a finite pool of currency the Treasury already held, not
+from dollars created for the purpose. That is the same constraint Japan
+is working under.</p>
+<p><strong>Key FX signal to watch:</strong> Not a price. Whether the
+joint US and Japan policy Kyodo News expects actually arrives, and
+whether it carries a commitment or only a warning. A statement backed by
+something is a different creature from a statement that is only a
+statement.</p></td>
+<td></td>
+<td><p><strong>Short-term (days to weeks)</strong>: Anyone betting the
+yen will keep falling must now price the possibility that the buyer on
+the other side of their trade is the US Treasury. That makes the bet
+more expensive to hold without changing a single reason for making it.
+Thursday's move, more than 3% in a day and the biggest in almost two
+years is reallocation but so is the fact that it faded by the next
+afternoon.</p>
+<p><strong>Medium-term (over months):</strong> Current US rates are
+higher than Japanese. Last week the Fed decided to hold and Chair Kevin
+Warsh gave little guidance on what comes next. If American rates rise
+while Japan holds, the pull on the yen gets stronger, not weaker. This
+is the horizon on which intervention either buys time for something else
+to change or simply buys time.</p>
+<p><strong>Long-term (a year and beyond):</strong> Either U.S. rates go
+down or Japanese rates go up to close the current gap. Japanese rates
+have moved from near zero to 1% which is a significant shift after
+decades of a country where money earned nothing.</p>
+<p><strong>Key rates signal to watch:</strong> The September Fed
+meeting. A rise would widen the very gap that caused all of this and it
+is one of the few events that is capable of undoing what Friday
+brought.</p></td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>HOW IT ALL CONNECTS</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>US rates stay high while Japanese rates stay low <em>→</em> money
+flows out of the yen and into the dollar <em>→</em> Japan warns, then
+spends a record 11.7 trillion yen <em>→</em> the effect fades <em>→</em>
+the yen reaches 163.99 anyway, a near forty year low <em>→</em>
+Washington reportedly joins <em>→</em> the market must now price two
+governments instead of one</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div><p>What makes this week genuinely different is that nothing about the
+underlying situation improved. There was no better economic news out of
+Japan, no change in what Japanese assets pay, no shift in what any
+investor earns. Every reason the yen was falling on Thursday was still
+in place on Friday afternoon.</p>
+<p>What changed was the composition of the room.</p>
+<p>Markets, like corridors, are partly a social phenomenon. A price is
+not only a calculation, it is also a collective opinion about what other
+people will do next, and opinions can be moved by who holds them as much
+as by what they contain. That is why the same action can read as
+desperation from one participant and as resolve from another. When Japan
+bought yen and warned and bought again, the market saw a country running
+down its reserves to defend a level it could not hold alone. When
+Washington arrived, the market saw something else.</p>
+<p>The reason it is so hard to fix permanently is that intervention and
+the problem operate on different things. Intervention changes who is
+buying today. The rate gap changes where money wants to live, every
+hour, for as long as it stays open. One is an event, the other is a
+climate. A government can surprise a market repeatedly and it can make
+betting against it genuinely expensive. However, it cannot make Japanese
+assets pay what American assets pay. That is a decision for two central
+banks, not two treasuries. Which is why the important date in this story
+is not any intervention at all. It is September, when both central banks
+meet.</p>
+<h2><strong>WHY THIS MATTERS TO YOU</strong></h2>
+<p><em><strong>The broader market picture</strong></em></p>
+<p>Markets are in a cautious, policy-watching mood rather than a fearful
+one. There was no crisis this week and nothing collapsed. What happened
+instead is that a price which had been drifting in one direction for
+months was interrupted by governments, and that is a different kind of
+event from an ordinary market move. When a price is set by millions of
+buyers and sellers, it carries information about what people believe.
+When it is being held up deliberately, it carries information about what
+governments are willing to spend. Both are real prices. They are just
+not the same kind of fact and knowing which one you are looking at is a
+genuinely useful skill.</p>
+<p><em><strong>If you are building your financial
+literacy</strong></em></p>
+<p>The most useful thing to take from this week is that a currency has
+no price of its own. It only has a price against something else, which
+means the number can fall while the thing itself is getting stronger.
+Once that clicks, half the confusion in currency headlines disappears,
+because you stop reading "the yen fell to 158" as a statement about
+Japan and start reading it as a statement about two countries at
+once.</p>
+<p>And if this week touches your work or your money more directly, here
+is where it actually shows up.</p>
+<p><em><strong>If this connects to your work or
+portfolio</strong></em></p>
+<ul>
+<li><p>If you are an <strong>importer</strong>, meaning your costs
+depend on goods bought abroad, the currency your contracts, are actually
+priced in decides whether this reaches you at all. A firmer yen raises
+the cost of anything sourced from Japan and invoiced in yen. What this
+week does not tell you is anything about the dollar in general. It moved
+against the yen, which is not the same as moving against your currency.
+And this move came from official action rather than ordinary market
+flow, which makes it a different thing to plan around. The question is
+not where the rate sits today. It is whether the governments behind it
+keep going.</p></li>
+<li><p>If you are an <strong>exporter</strong>, meaning you earn by
+selling abroad, anything you are owed in yen is worth more than it was a
+week ago, and how much that matters depends on how much is invoiced in
+yen rather than dollars or euros. Japanese exporters sit on the other
+side of it, losing the advantage a weak currency had been giving them.
+But the detail worth remembering is the rate improved because two
+governments made it improve. The interest rate gap underneath it has not
+moved at all.</p></li>
+<li><p>If you are a <strong>borrower</strong>, the relevant fact is that
+3 of the Fed's 12 rate setters voted last week to raise rates rather
+than hold. This suggests that higher-for-longer looks less like a phase
+to wait out than it did a month ago. Whether that impacts you depends on
+which rate your debt is actually priced off, because dollar borrowing
+costs and your own central bank's path are two different
+things.</p></li>
+<li><p>If you are an <strong>investor</strong>, currency exposure is the
+thing most portfolios carry without anyone choosing it. A carry trade is
+one of the most common ways that exposure arrives without being noticed.
+It usually shows up in a single line in a fund's description saying
+whether it is currency hedged, which is a detail almost nobody reads.
+The question worth sitting with is not what to do about it, but whether
+you actually know how much of what you own assumes the yen stays where
+it is.</p></li>
+</ul>
+</div>
+<p class="source-note"><a href="issue-14.html#references">Issue 14 references →</a></p>
+</article></main>
+<footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="https://wallstreetforthegirls.com/archive.html">Archive</a>
+      <a href="https://wallstreetforthegirls.com/about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+<dialog class="definition-popup" aria-labelledby="definition-title">
+  <form method="dialog"><button type="submit" aria-label="Close definition">Close ×</button></form>
+  <h2 id="definition-title"></h2>
+  <p class="definition-text"></p>
+  <a class="definition-source" href="glossary.html">Open in glossary →</a>
+</dialog>
+<script src="definitions.js" defer></script>
+</body></html>

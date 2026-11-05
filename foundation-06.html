@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Foundation · Issue 06 | Wall Street for the Girls</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+:root { --paper:#FAF7F1; --ink:#22201D; --wine:#4D0E13; --rule:#D8C4AC; }
+* { box-sizing:border-box; }
+.issue-page main { width: 100%; margin-inline: 0; font: 1.13rem/1.65 var(--serif); }
+.issue-page main > article { min-width: 0; overflow-wrap: anywhere; }
+.issue-page article img { max-width: 100%; height: auto !important; }
+.issue-page article math[display="block"] { max-width: 100%; overflow-x: auto; }
+@media (min-width: 681px) {
+  .issue-page main {
+    display: grid;
+    grid-template-columns: minmax(0, 3.25fr) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 2.5vw, 3rem);
+  }
+}
+article { padding:2rem 0 4rem; }
+.issue-label { color:var(--wine); font:700 .75rem/1.4 system-ui,sans-serif; letter-spacing:.18em; text-transform:uppercase; }
+h1 { margin:.25em 0 .15em; font-size:clamp(2.6rem,8vw,5.6rem); line-height:.98; font-weight:400; letter-spacing:-.045em; }
+.deck { font-size:clamp(1.2rem,3vw,1.65rem); line-height:1.35; font-style:italic; }
+.disclaimer { color:#5C574E; font-size:.92rem; }
+h2 { margin:2rem 0 .6rem; padding-top:.6rem; border-top:1px solid var(--rule); color:var(--wine); line-height:1.2; }
+h3 { color:var(--wine); line-height:1.25; }
+article a { color:var(--wine); overflow-wrap:anywhere; }
+.table-wrap { overflow-x:auto; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; font: .875rem/1.45 system-ui,sans-serif; }
+th,td { padding:.6rem; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top; }
+th { background:#EFE4D7; color:var(--wine); }
+td p,th p { margin:0; }
+
+.definition-term { border: 0; padding: 0; background: none; color: var(--burgundy); font: inherit; font-weight: bold; text-decoration: underline dotted; text-underline-offset: .16em; cursor: pointer; }
+.definition-popup { width: min(90vw, 30rem); border: 1px solid var(--burgundy); background: var(--paper); color: var(--ink); padding: 1.4rem; }
+.definition-popup::backdrop { background: #22201D80; }
+.definition-popup form { text-align: right; }
+.definition-popup button { font: inherit; cursor: pointer; }
+.definition-popup h2 { margin-top: .5rem; }
+.definition-popup a { color: var(--burgundy); }
+
+.issue-nav { display:flex; flex-wrap:wrap; gap:.4rem 1.25rem; padding:.8rem 0; margin:1.4rem 0 2rem; border-block:1px solid var(--rule); font:600 .88rem/1.5 var(--sans); }
+.issue-nav a { padding:0; font:inherit; }
+.issue-nav [aria-current] { font-weight:800; }
+.issue-page article section + section { margin-top:clamp(2.5rem, 5vw, 4.5rem); }
+.issue-page article h3 { margin-top:1.7rem; }
+.issue-page article figure { margin:1.4rem 0; }
+.issue-page article figure img { max-width:100%; height:auto; display:block; }
+.issue-page article .table-wrap { margin-block:1.4rem; }
+.issue-page article td, .issue-page article th { white-space:pre-line; }
+.issue-page .source-note { margin-top:2.5rem; color:#5C574E; font-size:.9rem; }
+</style>
+</head>
+<body class="issue-page">
+  
+ <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+<main><article>
+<p class="issue-label">Issue 06 · June 21st, 2026</p>
+<h1>The Foundation</h1>
+<p class="deck">Japan tried retail therapy on the yen, and it didn’t help</p>
+<nav class="issue-nav" aria-label="In this issue"><a href="issue-06.html">Main Article</a>
+<a href="foundation-06.html" aria-current="page">The Foundation</a></nav>
+<div id="foundation"><p>If you take only one concept from this issue, make it this one.</p>
+<p>When one country pays a higher interest rate than another, money
+tends to flow toward the higher rate, because that is simply where it
+earns more. That flow is one of the biggest forces setting the value of
+a currency. More money coming in tends to strengthen a currency, more
+money leaving tends to weaken it.</p>
+<p>Think of it like two savings accounts. If one bank pays you 4.45% and
+another down the road pays 2.64%, you do not need to be an economist to
+know where you would put your money. You would move it to the account
+paying more, and so would almost everyone else. Currencies work in much
+the same way, just on a global scale and with trillions of dollars at
+stake. The country paying less watches its money quietly walk out the
+door.</p>
+<p>This is exactly the trap Japan is in. Japanese interest rates are far
+lower than American ones, so money keeps leaving the yen for the dollar,
+and no single shopping spree can outspend a force that operates every
+hour of every day. Keep that picture in your head, two accounts paying
+very different rates, and the rest of this issue will come together.</p>
+<h2><strong>WHAT ACTUALLY MATTERS THIS WEEK</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>✦ The Signal</strong></th>
+<th></th>
+<th><strong>✦ The Noise</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>First, it is everything money cannot buy. The yen is weak because
+of the wide gap between US and Japanese interest rates, the crowded
+<button type="button" class="definition-term" aria-haspopup="dialog" data-definition="Borrowing in a low-interest currency, such as the yen, and investing the money where it earns more, then keeping the difference." data-glossary="carry-trade">carry trade</button> that gap feeds, a government that prefers a weaker currency,
+and an energy bill that keeps Japan buying dollars.</p>
+<p>The Bank of Japan just raised rates, but board member Toichiro Asada
+was the only vote against the hike, and incoming member Ayano Sato, who
+joins at the end of June, shares the same view. The appetite for further
+rate rises may be smaller than the headline suggests.</p>
+<p>Third, the positioning. The number of investors betting the yen will
+keep falling has climbed to fresh highs, beyond where it sat before
+Japan's earlier interventions. That is a position that could unwind
+fast.</p></td>
+<td></td>
+<td><p>'Japan intervened again' is noise. 'Intervention keeps failing'
+is the signal. Japan stepped in at the end of April, and again in early
+May. Each of these moments made a headline, but the pattern underneath
+is what matters, a brief strengthening, followed by a return to 160.</p>
+<p>The day-to-day moves are noise too. The yen ticking up or down a
+fraction of a percent on any given morning tells us almost nothing. The
+level that matters is where it keeps settling, which is near 160, and
+the gap that keeps pulling it there.</p></td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>WHAT’S MOVING IN MARKETS</strong></h2>
+<p>The <strong>yen</strong> is the entire story this week. It sits near
+160 to the dollar, and the only thing that briefly moved it was Japan
+spending billions in efforts to push it higher. The carry trade, the
+soft currency politics and the energy import bill are all pushing the
+same way. So the intervention buys a pause rather than a turnaround.</p>
+<p><strong>US and Japanese government bonds</strong> are where the
+pressure actually originates. A US 10Y government bond yields about
+4.45%, while the Japanese equivalent yields about 2.64%, a gap of
+roughly 1.8 percentage points. US rates have stayed higher for longer
+under the Federal Reserve and its new chair Kevin Warsh, who we
+discussed in Issue 5. So as long as that gap stays wide, money will keep
+flowing out of the yen and into the dollar.</p>
+<p><strong>Japanese shares</strong> are worth watching, though the shift
+will take time. Masahiko Loo, senior fixed income strategist at State
+Street Investment Management, points out that money could eventually
+flow back into Japan through investment in artificial intelligence,
+renewed foreign interest in Japanese companies, and a technology-led
+rally in the Nikkei, Japan's main stock index. That would support both
+the market and the currency.</p>
+<p>The <strong>US dollar</strong> is on the stronger side of all this.
+Since a weak yen is really just a strong dollar viewed from Tokyo. The
+same wide US interest rates that pull money out of the yen also make
+dollar assets attractive across the board, a pattern we have seen in
+every issue since the first.</p>
+<p><em>Note: this week's article does not cover emerging market
+currencies. The line below is informed context, not sourced from the
+article.</em></p>
+<p><strong>Emerging market currencies</strong> are not the main story
+this week, but they are worth keeping in mind. In a calm environment
+where investors are chasing higher returns, riskier currencies can hold
+up reasonably well. The danger comes from the other side. If the crowded
+yen bet ever unwinds in a rush, the nervousness tends to spread quickly,
+and higher-risk currencies are usually the first to feel it.</p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 18%">
+<col style="width: 16%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>ASSET</strong></th>
+<th><strong>DIRECTION</strong></th>
+<th><strong>WHY IT MATTERS</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>USD/JPY</td>
+<td>↓</td>
+<td>Rate gap, carry trade, soft-currency politics and energy imports all
+push the same way; intervention only buys a brief pause</td>
+</tr>
+<tr class="even">
+<td>US 10Y Treasury</td>
+<td>↑</td>
+<td>High US yields are the magnet pulling money out of the yen</td>
+</tr>
+<tr class="odd">
+<td>Japan 1OY (JGB)</td>
+<td>↑</td>
+<td>Climbing as the BoJ tightens, but still far below the US, so the gap
+persists</td>
+</tr>
+<tr class="even">
+<td>USD</td>
+<td>↑</td>
+<td>High US interest rates make dollar-denominated assets more
+attractive globally, drawing capital out of the yen and into the dollar.
+A weak yen is the other side of a strong dollar.</td>
+</tr>
+<tr class="odd">
+<td>EM currencies</td>
+<td>↔︎</td>
+<td>Steady in a risk-on mood, but exposed if the crowded carry bet
+unwinds</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>CURRENCY &amp; INTEREST RATE</strong></p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 3%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Where currencies stand</strong></th>
+<th></th>
+<th><strong>The Yield Picture</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong>USD/JPY:</strong> Weak, near 160. The rate gap, the carry
+trade, reflationary politics and the energy bill are all pushing the
+same way, and intervention has produced only brief relief before the
+currency drifts back.</p>
+<p><strong>EUR/USD:</strong> <em>Informed context, not covered directly
+by the article.</em> The euro is likely under mild pressure against a
+firm dollar.</p>
+<p><strong>KEY FX LEVEL:</strong> The number to watch is 160, the level
+Japanese authorities have been working to hold.</p></td>
+<td></td>
+<td><p><strong>US 10Y:</strong> Elevated near 4.45%, and the core of the
+whole story. It is held up by a Fed that has kept rates higher for
+longer.</p>
+<p><strong>BoJ:</strong> Just raised rates to a three-decade high, but
+the board has a <button type="button" class="definition-term" aria-haspopup="dialog" data-definition="When a central bank or its members prefer to keep interest rates low and money cheap to support growth. A dovish board member is less likely to vote for rate rises." data-glossary="dovish">dovish</button> tilt. With members who prefer cheaper money and a
+government that shares that view, there is a ceiling on how far rates
+can go.</p>
+<p><strong>KEY RATES LEVEL:</strong> The gap between US and Japanese 10Y
+yields, about 1.8 percentage points. As long as it stays this wide, the
+carry trade keeps the yen under pressure.</p></td>
+</tr>
+</tbody>
+</table>
+</div><h2><strong>HOW IT ALL CONNECTS</strong></h2>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><em>High US yields → money flows out of the yen into the dollar →
+the carry trade keeps selling yen → the yen sits near 160 → intervention
+brings brief relief → but the underlying pressures take over again
+causing the yen to drift back</em></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div><p>What makes this so hard to fix is that the tools and the problem do
+not match. Intervention and a rate hike are built to change the cost of
+money for a moment, but the yen's weakness comes from a structural gap
+those tools are not designed to close. There is also a structural
+problem with how the intervention was handled. Japanese officials
+signalled repeatedly that they were prepared to act, and signalling
+their plans ahead of time reduced the element of surprise that
+intervention depends on to be effective. When markets can see it coming,
+they position around it, and the impact fades faster.</p>
+<p>The short term and the long term are also pointing in opposite
+directions. Right now the gap is wide, the bet is crowded, and more
+intervention is likely, which keeps the yen under pressure. Over a
+longer horizon, if the Iran war winds down and Japan's energy bill
+falls, and if investment and a rising Nikkei start pulling money back
+in, the pressure on the yen could ease. That shift has not happened
+yet.</p>
+<h2><strong>WHY THIS MATTERS TO YOU</strong></h2>
+<p><em><strong>The broader market picture</strong></em></p>
+<p>Markets are in a mildly risk-on mood this week, meaning investors are
+calm and comfortable reaching for higher returns. The carry trade tends
+to thrive in exactly this kind of environment. That said, calm markets
+can shift quickly, and a crowded trade can reverse fast when sentiment
+turns. This is not a crisis, but it is a story worth understanding
+before anything changes.</p>
+<p><em><strong>For your business or portfolio</strong></em></p>
+<div class="table-wrap" role="region" aria-label="Issue table" tabindex="0"><table>
+<colgroup>
+<col style="width: 12%">
+<col style="width: 87%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Importers</th>
+<th>If you buy in yen, the weak currency is a quiet tailwind worth
+thinking about locking in; if you pay in dollars, the firm dollar is
+raising your costs.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Exporters</td>
+<td>Holding dollar receivables means the firm dollar is working in your
+favour.</td>
+</tr>
+<tr class="even">
+<td>Borrowers</td>
+<td>US rates are staying higher for longer, keeping borrowing costs
+elevated. If you hold any yen-denominated debt, be aware it carries
+currency risk that can move fast.</td>
+</tr>
+<tr class="odd">
+<td>Investors</td>
+<td>You may be part of the carry trade without realising it. The
+question worth asking is whether your exposure is protected against a
+sudden yen rally.</td>
+</tr>
+</tbody>
+</table>
+</div></div>
+<p class="source-note"><a href="issue-06.html#references">Issue 06 references →</a></p>
+</article></main>
+<footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="https://wallstreetforthegirls.com/archive.html">Archive</a>
+      <a href="https://wallstreetforthegirls.com/about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+<dialog class="definition-popup" aria-labelledby="definition-title">
+  <form method="dialog"><button type="submit" aria-label="Close definition">Close ×</button></form>
+  <h2 id="definition-title"></h2>
+  <p class="definition-text"></p>
+  <a class="definition-source" href="glossary.html">Open in glossary →</a>
+</dialog>
+<script src="definitions.js" defer></script>
+</body></html>

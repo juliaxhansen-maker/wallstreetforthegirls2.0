@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wall Street for the Girls, a weekly finance newsletter that explains what’s happening in markets in plain language.">
+  <title>Wall Street for the Girls</title>
+  <link rel="icon" href="logo.png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .archive-link, .learning-grid a, .footer-links a {
+      color: var(--burgundy, #4D0E13);
+      text-underline-offset: .18em;
+    }
+    .archive-link { display: inline-block; margin-top: .85rem; }
+    .learning-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 1.25rem;
+      border-block: 1px solid #D8C4AC;
+    }
+    .learning-grid article { padding: 1.15rem 1.25rem; }
+    .learning-grid article:first-child { padding-left: 0; }
+    .learning-grid article + article { border-left: 1px solid #D8C4AC; }
+    .learning-grid h3 { font-size: clamp(1.25rem, 2vw, 1.75rem); margin: 0; }
+    .explained .learning-grid p { font-size: 1.1rem; line-height: 1.45; margin: .45rem 0 .8rem; }
+    .home-footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: .75rem 2rem;
+      margin-top: 2.25rem;
+      padding-top: 1.15rem;
+      border-top: 1px solid currentColor;
+    }
+    .home-footer strong { color: var(--burgundy, #4D0E13); font-size: 1.2rem; }
+    .home-footer p { max-width: 48ch; margin: .4rem 0 0; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: .75rem 1.1rem; }
+    @media (max-width: 680px) {
+      .learning-grid { grid-template-columns: 1fr; }
+      .learning-grid article { padding-inline: 0; }
+      .learning-grid article + article { border-left: 0; border-top: 1px solid #D8C4AC; }
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="folio">
+      <img src="logo.png" alt="" width="112" height="112">
+    </div>
+    <div class="wordmark">Wall Street for the Girls</div>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="archive.html">Archive</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a class="subscribe" href="https://wallstreetforthegirls.substack.com/subscribe">Subscribe</a>
+    </nav>
+    <div class="ticker animated">
+      <div class="ticker-window">
+        <div class="ticker-track">
+          <div class="ticker-group"><strong>SIGNAL OVER NOISE</strong><b aria-hidden="true">✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b aria-hidden="true">✦</b><span>NO JARGON</span><b aria-hidden="true">✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b aria-hidden="true">✦</b></div>
+          <div class="ticker-group" aria-hidden="true"><strong>SIGNAL OVER NOISE</strong><b>✦</b><span>A WARDROBE IS NEVER JUST A WARDROBE, IT'S A PORTFOLIO</span><b>✦</b><span>NO JARGON</span><b>✦</b><span>SHE WHO DIVERSIFIES, THRIVES</span><b>✦</b></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="front-page">
+      <article class="feature">
+        <p class="kicker">The Big Read</p>
+        <h1>The Doubt Premium</h1>
+        <p class="deck">When France’s borrowing costs rise, the gap with Germany tells a bigger story about confidence, politics, and risk.</p>
+        <a class="read-issue" href="issue-21.html">Read Issue →</a>
+        <img class="cover" src="hero.jpg" alt="A hand with pink nails places a euro coin on a folded newspaper beside an illustrative bond yield chart." width="2048" height="683">
+      </article>
+      <aside class="brief" aria-labelledby="brief-title">
+        <h2 id="brief-title" class="kicker">Fresh Off the Terminal</h2>
+        <ul>
+          <li><a href="issue-20.html">Issue 20: The Price of Borrowing Just Hit a Level Our Parents Remember</a></li>
+          <li><a href="foundation-19.html">Issue 19: The Business That Borrows the Thing It Lends</a></li>
+          <li><a href="foundation-18.html">Issue 18: The Company That Gives You a Raise vs. The One That Buys You a Gift Card</a></li>
+          <li><a href="foundation-17.html">Issue 17: Why One Price Rising Makes Everything Else Rise Too</a></li>
+          <li><a href="foundation-16.html">Issue 16: Same Bond, Different Yield. The Seesaw Nobody Explains</a></li>
+        </ul>
+        <a class="archive-link" href="archive.html">View the full archive →</a>
+      </aside>
+    </div>
+    <section class="explained" aria-labelledby="explained-title">
+      <h2 id="explained-title" class="kicker">Money, Explained</h2>
+      <p>Get comfortable with the language of markets.</p>
+      <div class="learning-grid">
+        <article>
+          <h3>The Foundation</h3>
+          <p>Build your investing knowledge with plain-language breakdowns of the basics.</p>
+          <a href="foundation.html">Explore the Foundation →</a>
+        </article>
+        <article>
+          <h3>The Financial Syllabus</h3>
+          <p>Follow a structured path through the concepts that come up in the newsletter.</p>
+          <a href="financial-syllabus.html">Browse the syllabus →</a>
+        </article>
+        <article>
+          <h3>The Glossary</h3>
+          <p>Look up the terms you see in the news and in each issue.</p>
+          <a href="glossary.html">Explore the glossary →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="home-footer">
+    <div>
+      <strong>Wall Street for the Girls</strong>
+      <p>A weekly finance newsletter that explains what’s happening in markets in plain language.</p>
+    </div>
+    <div class="footer-links" aria-label="Footer links" role="navigation">
+      <a href="archive.html">Archive</a>
+      <a href="about.html">About</a>
+      <a href="https://wallstreetforthegirls.substack.com">Substack</a>
+    </div>
+  </footer>
+</body>
+</html>
